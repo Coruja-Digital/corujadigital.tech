@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="tile">
+        <div class="tile is-parent">
+            <article class="tile is-child notification {{ TILE_FOUR['css_class'] }}">
+                <div class="content">
+                    <p class="title">
+                        <a href="{{ TILE_FOUR['slug'] }}">
+                        {{ TILE_FOUR["title"] }}</a>
+                    </p>
+                    <p class="subtitle">{{ TILE_FOUR["content"] }}</p>
+                </div>
+            </article>
+        </div>
+        <div class="tile is-vertical is-8">
+            <div class="tile">
+                <div class="tile is-parent is-vertical">
+                    <article class="tile is-child notification {{ TILE_ONE['css_class'] }}">
+                        <p class="title">
+                            <a href="{{ TILE_ONE['slug'] }}">
+                            {{ TILE_ONE["title"] }}</a>
+                        </p>
+                        <p class="subtitle">{{ TILE_ONE["content"] }}</p>
+                    </article>
+                    <article class="tile is-child notification {{ TILE_TWO['css_class'] }}">
+                        <p class="title">
+                            <a href="{{ TILE_TWO['slug'] }}">
+                            {{ TILE_TWO["title"] }}</a>
+                        </p>
+                        {% if TILE_TWO["content"] %}
+                            <p class="subtitle">{{ TILE_TWO["content"] }}</p>
+                        {% endif %}
+                    </article>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child notification {{ TILE_THREE['css_class'] }}">
+                        <p class="title">
+                            <a href="{{ TILE_THREE['slug'] }}">
+                            {{ TILE_THREE["title"] }}</a>
+                        </p>
+                        {% if TILE_THREE["content"] %}
+                            <p class="subtitle">{{ TILE_THREE["content"] }}</p>
+                        {% endif %}
+                        {% if TILE_THREE["image"] %}
+                            <figure class="image is-4by3">
+                                <img src="{{ TILE_THREE['image'] }}" />
+                            </figure>
+                        {% endif %}
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

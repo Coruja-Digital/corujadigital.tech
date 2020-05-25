@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+<html lang="es">
     <head>
-        {% block head %}
-        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+          <title>Contactar - Coruja Digital</title>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -25,57 +24,8 @@
         href="theme/favicon.ico"
         type="image/vnd.microsoft.icon"
         />
-        {% if FEED_ALL_ATOM %}
-            <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ 
-FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" 
-type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Feed Atom 
-Feed" />
-        {% endif %}
-        {% if FEED_ALL_RSS %}
-            <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ 
-FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" 
-type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Feed RSS" 
-/>
-        {% endif %}
-        {% if FEED_ATOM %}
-        <link href="{{ FEED_DOMAIN }}/{%if FEED_ATOM_URL %}{{ FEED_ATOM_URL 
-}}{% else %}{{ FEED_ATOM }}{% endif %}" type="application/atom+xml" 
-rel="alternate" title="Feed Atom de {{ SITENAME }}" />
-        {% endif %}
-        {% if FEED_RSS %}
-        <link href="{{ FEED_DOMAIN }}/{% if FEED_RSS_URL %}{{ FEED_RSS_URL }}{% 
-else %}{{ FEED_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" 
-title="Feed RSS de {{ SITENAME }}" />
-        {% endif %}
-        {% if CATEGORY_FEED_ATOM and category %}
-            <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_ATOM_URL %}{{ 
-CATEGORY_FEED_ATOM_URL.format(slug=category.slug) }}{% else %}{{ 
-CATEGORY_FEED_ATOM.format(slug=category.slug) }}{% endif %}" 
-type="application/atom+xml" rel="alternate" title="Categorías del Feed Atom {{ 
-SITENAME }}" />
-        {% endif %}
-        {% if CATEGORY_FEED_RSS and category %}
-            <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_RSS_URL %}{{ 
-CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}{% else %}{{ 
-CATEGORY_FEED_RSS.format(slug=category.slug) }}{% endif %}" 
-type="application/rss+xml" rel="alternate" title="Categorías del Feed RSS {{ 
-SITENAME }}" />
-        {% endif %}
-        {% if TAG_FEED_ATOM and tag %}
-        <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_ATOM_URL %}{{ 
-TAG_FEED_ATOM_URL.format(slug=tag.slug) }}{% else %}{{ 
-TAG_FEED_ATOM.format(slug=tag.slug) }}{% endif %}" type="application/atom+xml" 
-rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
-        {% endif %}
-        {% if TAG_FEED_RSS and tag %}
-        <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ 
-TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ 
-TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" 
-rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
-        {% endif %}
         <!--
-        <link rel="stylesheet" type="text/css" href="{{ SITEURL 
-        }}/theme/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="https://corujadigital.tech/theme/css/style.css" />
         -->
         <link
         rel="stylesheet"
@@ -131,41 +81,73 @@ rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         defer
         src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
         ></script>
-    {% endblock head %}
+
+
     </head>
     <body class="is-success">
 				<div class="notification is-warning">
-					{% if WARN %}{{ WARN }}{% endif %}
-				</div>
+<p>¡Estamos desarrollando el sitio web! Esperamos tenerlo lo más pronto posible.</p><p>Para cualquier duda, proyecto o trabajo puedes contactar con nosotros en <a href='mailto:info@corujadigital.tech'> info@corujadigital.tech</a></p>				</div>
         <section class="section is-success" style="padding: 1.5rem 1.5rem;">
             <div class="container">
                 <section class="hero has-text-centered">
                     <div class="hero-body">
                         <figure class="media" style="justify-content: center">
                         <p class="image is-128x128">
-                            <a href="{{ SITEURL }}">
+                            <a href="https://corujadigital.tech">
                                 <img src="theme/logo_coruja_digital.png" />
                             </a>
                         </p>
                         </figure>
                         <h1 class="title">
-                            {{ SITENAME }}
+                            Coruja Digital
                         </h1>
                         <h2 class="subtitle">
-                            {{ SUBTITLE }}
+                            Tecnologías de la información y la comunicación para el patrimonio y la ciencia abierta
                         </h2>
                     </div>
                 </section>
-                {% block content %}
-                {% endblock %}
+    <section class="hero is-warning" style="padding: 3rem 1.5rem; margin-top: 1.5rem">
+        <div class="hero-head" style="padding: 3rem 1.5rem">
+            <div class="container">
+                <div class="level">
+                    <div class="level-left">
+                        <h1 class="title">
+                            Contactar
+                        </h1>
+                    </div>
+                    <div class="level-right has-text-right">
+                        <p>
+                            <time itemprop="dateCreated" datetime="2020-04-17T02:21:00+01:00">17 de abril de 2020</time>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-body page-body">
+            <p>Actualmente el único medio para contactar con el equipo de Coruja Digital es por correo electrónico a <a href="mailto:info@corujadigital.tech">info@corujadigital.tech</a>.</p>
+        </div>
+        <div class="hero-foot page-foot">
+                Última actualización: 18 de abril de 2020
+        </div>
+    </section>
+    <!--
+    <h1>Contactar</h1>
+    
+
+    
+
+        <p>
+        Última actualización: 18 de abril de 2020
+        </p>
+    -->
             </div>
         </section>
         <footer class="footer is-success is-fullheight">
             <div class="content has-text-centered">
                 <p>
-                    <strong>{{ SITENAME }}</strong>
+                    <strong>Coruja Digital</strong>
                     <br />
-                    {{ FOOTER }}
+                    El contenido del sitio web está bajo una licencia <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.es'>Creative Commons BY-SA 4.0</a>.
                 </p>
             </div>
         </footer>

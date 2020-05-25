@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+    <head>
+        {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="generator" content="Pelican" />
+        <meta name="author" content="Iván Hernández Cazorla" />
+        <meta
+        name="description"
+        content="Coruja Digital ofrece servicios relacionados con las tecnologías de la información y la comunicación para el patrimonio cultural y la ciencia abierta"
+        />
+        <meta
+        name="keywords"
+        content="coruja,digital,tecnología,ciencia,abierta,patrimonio,wiki,humanidades"
+        />
+        <link
+        rel="shortcut icon"
+        href="theme/favicon.ico"
+        type="image/vnd.microsoft.icon"
+        />
+        {% if FEED_ALL_ATOM %}
+            <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ 
+FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" 
+type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Feed Atom 
+Feed" />
+        {% endif %}
+        {% if FEED_ALL_RSS %}
+            <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ 
+FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" 
+type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Feed RSS" 
+/>
+        {% endif %}
+        {% if FEED_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{%if FEED_ATOM_URL %}{{ FEED_ATOM_URL 
+}}{% else %}{{ FEED_ATOM }}{% endif %}" type="application/atom+xml" 
+rel="alternate" title="Feed Atom de {{ SITENAME }}" />
+        {% endif %}
+        {% if FEED_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_RSS_URL %}{{ FEED_RSS_URL }}{% 
+else %}{{ FEED_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" 
+title="Feed RSS de {{ SITENAME }}" />
+        {% endif %}
+        {% if CATEGORY_FEED_ATOM and category %}
+            <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_ATOM_URL %}{{ 
+CATEGORY_FEED_ATOM_URL.format(slug=category.slug) }}{% else %}{{ 
+CATEGORY_FEED_ATOM.format(slug=category.slug) }}{% endif %}" 
+type="application/atom+xml" rel="alternate" title="Categorías del Feed Atom {{ 
+SITENAME }}" />
+        {% endif %}
+        {% if CATEGORY_FEED_RSS and category %}
+            <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_RSS_URL %}{{ 
+CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}{% else %}{{ 
+CATEGORY_FEED_RSS.format(slug=category.slug) }}{% endif %}" 
+type="application/rss+xml" rel="alternate" title="Categorías del Feed RSS {{ 
+SITENAME }}" />
+        {% endif %}
+        {% if TAG_FEED_ATOM and tag %}
+        <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_ATOM_URL %}{{ 
+TAG_FEED_ATOM_URL.format(slug=tag.slug) }}{% else %}{{ 
+TAG_FEED_ATOM.format(slug=tag.slug) }}{% endif %}" type="application/atom+xml" 
+rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
+        {% endif %}
+        {% if TAG_FEED_RSS and tag %}
+        <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ 
+TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ 
+TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" 
+rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
+        {% endif %}
+        <!--
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL 
+        }}/theme/css/style.css" />
+        -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"
+        />
+        <style type="text/css">
+        .is-success {
+            background-color: #fffade !important;
+        }
+        
+        .is-primary {
+            background-color: hsl(141, 71%, 48%) !important;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #23233d !important;
+        }
+        p {
+            color: #23233d !important;
+        }
+        
+        .hero-head h1,
+        .hero-head h2,
+        .hero-head p {
+            color: #23233d !important;
+        }
+        
+        .hero-body {
+            padding: 0rem 1.5rem !important;
+        }
+        
+        .page-body {
+            padding: 3rem 1.5rem !important;
+            background-color: #fff !important;
+        }
+        
+        .page-body p {
+            color: #23233d !important;
+        }
+        
+        .page-foot {
+            margin-top: 1.5rem;
+            padding: 1rem 1.5rem !important;
+        }
+        
+        .footer {
+            padding: 2rem 1.5rem !important;
+        }
+        </style>
+        <script
+        defer
+        src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+        ></script>
+    {% endblock head %}
+    </head>
+    <body class="is-success">
+				<div class="notification is-warning">
+					{% if WARN %}{{ WARN }}{% endif %}
+				</div>
+        <section class="section is-success" style="padding: 1.5rem 1.5rem;">
+            <div class="container">
+                <section class="hero has-text-centered">
+                    <div class="hero-body">
+                        <figure class="media" style="justify-content: center">
+                        <p class="image is-128x128">
+                            <a href="{{ SITEURL }}">
+                                <img src="theme/logo_coruja_digital.png" />
+                            </a>
+                        </p>
+                        </figure>
+                        <h1 class="title">
+                            {{ SITENAME }}
+                        </h1>
+                        <h2 class="subtitle">
+                            {{ SUBTITLE }}
+                        </h2>
+                    </div>
+                </section>
+                {% block content %}
+                {% endblock %}
+            </div>
+        </section>
+        <footer class="footer is-success is-fullheight">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>{{ SITENAME }}</strong>
+                    <br />
+                    {{ FOOTER }}
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

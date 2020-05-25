@@ -43,8 +43,8 @@ DEFAULT_PAGINATION = False
 WARN = ("<p>¡Estamos desarrollando el sitio web! Esperamos tenerlo lo"
         " más pronto posible.</p>"
         "<p>Para cualquier duda, proyecto o trabajo puedes contactar"
-        " con nosotros en <a href='mailto:info@corujadigital.tech'>"
-        " info@corujadigital.tech</a></p>")
+        " con nosotros en <a href='mailto:ivan@corujadigital.tech'>"
+        " ivan@corujadigital.tech</a></p>")
 
 TILE_ONE = {"title": "Qué hacemos",
             "slug": "servicios.html",

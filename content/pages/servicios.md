@@ -6,7 +6,7 @@ slug: servicios
 
 En Coruja Digital estamos preparados para abordar proyectos de diverso tipo gracias a [nuestro equipo](/acerca-de.html). Nuestros servicios se centran principalmente en el patrimonio cultural, las humanidades digitales, la ciencia abierta y el conocimiento libre.
 
-Nos interesan especialmente los proyectos en los que se realizan transferencias de conocimiento a la sociedad, una característica que consideramos esencial de todo proyecto en el que se gestione el conocimiento.
+Nos interesan especialmente los proyectos en los que se realizan transferencias de conocimiento a la sociedad, una característica que consideramos esencial de todo proyecto en el que se gestione el conocimiento. Puedes contar con nosotros tanto si eres un particular, una empresa o una institución privada o pública.
 
 Entre los servicios que prestamos se encuentran:
 
@@ -18,6 +18,7 @@ Entre los servicios que prestamos se encuentran:
   - Virtualización del patrimonio cultural en forma de patrimonio digital. Facilitar herramientas y servicios que faciliten a la ciudadanía el conocimiento sobre su patrimonio. Para ello solemos recomendar el formato *wiki*, pero según el tipo de proyecto que existen otras opciones más viables.
   - Gestión de proyectos de publicación científica (revistas, congresos u otro tipo de publicaciones), así como de la adecuación de sus datos para corresponder el OAI-PMH (*Open Archive Initiative-Protocol for Metada Harvesting*).
   - Gestión de sitios web y comunicación en redes sociales para proyectos de ámbito cultural y científico.
+  - Ofrecemos formación en diferentes ámbitos y aspectos, desde alfabetización digital básica de equipos hasta aprendizaje especializado en otros ámbitos, como el uso de herramientas concretas.
 
 Estos son solo algunos de los servicios que ofertamos. Si no encuentras uno que coincida con lo que tienes pensado, no dudes en [contactar](/contactar.html) con nosotros y estudiaremos la viabilidad de tu idea o proyecto sin compromiso.
 

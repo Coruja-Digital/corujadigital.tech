@@ -6,4 +6,6 @@ slug: contactar
 
 Puedes contactar con nosotros a través del correo electrónico <a href="mailto:ivan@corujadigital.tech">ivan@corujadigital.tech</a>.
 
+También puedes hacernos una visita, pero lo mejor es concertar una cita para confirmar que estaremos en la oficina. Actualmente nos encontramos en el espacio de coworking Soppa de Azul, en la calle Américo Vespucio, 68.
+
 Pronto dispondremos de un formulario de contacto para facilitar la comunicación con nosotros.

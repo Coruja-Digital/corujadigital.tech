@@ -1,7 +1,9 @@
 title: Contactar
 date: 2020-04-17 02:21
-modified: 2020-04-18 02:22
+modified: 2020-06-04 19:00
 css_class: is-warning
 slug: contactar
 
-Actualmente el único medio para contactar con el equipo de Coruja Digital es por correo electrónico a <a href="mailto:info@corujadigital.tech">info@corujadigital.tech</a>.
+Puedes contactar con nosotros a través del correo electrónico <a href="mailto:ivan@corujadigital.tech">ivan@corujadigital.tech</a>.
+
+Pronto dispondremos de un formulario de contacto para facilitar la comunicación con nosotros.

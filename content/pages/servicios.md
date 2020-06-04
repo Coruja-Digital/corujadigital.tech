@@ -6,29 +6,29 @@ slug: servicios
 
 En Coruja Digital estamos preparados para abordar proyectos de diverso tipo gracias a [nuestro equipo](/acerca-de.html). Nuestros servicios se centran principalmente en el patrimonio cultural, las humanidades digitales, la ciencia abierta y el conocimiento libre.
 
-Nos interesan especialmente los proyectos en los que se realizan transferencias de conocimiento a la sociedad, una característica que consideramos esencial de todo proyecto en el que se gestione el conocimiento. Puedes contar con nosotros tanto si eres un particular, una empresa o una institución privada o pública.
+Nos interesan especialmente los proyectos en los que se realizan transferencias de conocimiento a la sociedad, una característica que consideramos esencial en todo proyecto en el que se gestione el conocimiento. Puedes contar con nosotros tanto si eres un particular, una empresa o una institución privada o pública.
 
 Entre los servicios que prestamos se encuentran:
 
-  - La aplicación de transferencias de conocimiento en soporte tradicional a soporte digital. No solo aquello relacionado con la digitalización de conocimiento, sino con el replanteamiento y actualización de proyectos anteriores al periodo tecnológico actual.
-  - La gestión de documentación en soporte digital y físico. La organización de los archivos es esencial, ya sean digitales o físicos, documentos escritos o multimedia.
-  - La gestión de proyectos relacionados con la ciencia abierta, el conocimiento libre y los datos abiertos. El despliegue de portales abiertos para la gestión de este tipo de contenido no solo es esencial para la difusión, sino también para la gestión interna de esos datos.
-  - Curación de datos (organización e integración de datos recopilado de difernetes fuentes), así como la preparación de conjuntos de datos (descripción, publicación y presentaciones), su mantenimiento y su disponiblización, ya sea para un entorno público o privado.
-  - Asistencia para la liberación de contenido bajo licencias libres y gestión del contenido liberado (preparación del conjunto, almacenamiento y establecimiento de pautas para su difusión). Esto incluye la gestión de repositorios de datos o software, así como su preparación para la posterior fase de comunicación y difusión.
-  - Virtualización del patrimonio cultural en forma de patrimonio digital. Facilitar herramientas y servicios que faciliten a la ciudadanía el conocimiento sobre su patrimonio. Para ello solemos recomendar el formato *wiki*, pero según el tipo de proyecto que existen otras opciones más viables.
+  - Transferencia de conocimiento en soporte tradicional a soporte digital. No solo lo relacionado con la digitalización de documentos, sino también el replanteamiento y actualización de proyectos anteriores al periodo tecnológico actual.
+  - Gestión de documentación en soporte digital y físico. La organización de los archivos es esencial, ya sean digitales o físicos, documentos escritos o multimedia.
+  - Gestión de proyectos relacionados con la ciencia abierta, el conocimiento libre y los datos abiertos. El despliegue de portales para la gestión de este tipo de contenido no solo es esencial para la difusión, sino también para la gestión interna de esos datos.
+  - Curación de datos (organización e integración de datos recopilado de diferentes fuentes), así como la preparación de conjuntos de datos (descripción, publicación y presentación), su mantenimiento y su disponiblización, ya sea para un entorno público o privado.
+  - Asistencia para la liberación de contenido bajo licencias libres y gestión del contenido liberado (preparación del conjunto, almacenamiento y establecimiento de pautas para su difusión). Esto incluye la gestión de repositorios de datos, multimedia o software, así como la planificación de la fase de comunicación y difusión.
+  - Virtualización del patrimonio cultural. Facilitar herramientas y servicios que faciliten a la ciudadanía el conocimiento sobre su patrimonio en forma de patrimonio digital. Para ello solemos recomendar el formato *wiki*, pero existen otras opciones más viables y efectivas según el tipo de proyecto.
   - Gestión de proyectos de publicación científica (revistas, congresos u otro tipo de publicaciones), así como de la adecuación de sus datos para corresponder el OAI-PMH (*Open Archive Initiative-Protocol for Metada Harvesting*).
   - Gestión de sitios web y comunicación en redes sociales para proyectos de ámbito cultural y científico.
-  - Ofrecemos formación en diferentes ámbitos y aspectos, desde alfabetización digital básica de equipos hasta aprendizaje especializado en otros ámbitos, como el uso de herramientas concretas.
+  - Formación en diferentes ámbitos y aspectos, desde alfabetización digital básica hasta aprendizaje especializado, así como el uso de herramientas concretas.
 
-Estos son solo algunos de los servicios que ofertamos. Si no encuentras uno que coincida con lo que tienes pensado, no dudes en [contactar](/contactar.html) con nosotros y estudiaremos la viabilidad de tu idea o proyecto sin compromiso.
+Estos son solo algunos de los servicios que ofertamos. Si no encuentras uno que coincida con lo que tienes pensado, no dudes en [contactar con nosotros](/contactar.html) y estudiaremos la viabilidad de tu idea o proyecto encantados y sin compromiso.
 
 ## Herramientas y servicios que utilizamos
 
-En Coruja Digital somos promotores del software libre y de código abierto, por lo que siempre que es posible intentamos que los proyectos se realicen con herramientas que cumplan esos requisitos.
+En Coruja Digital somos promotores del software libre y de código abierto, por lo que siempre que es posible intentamos que los proyectos se realicen con herramientas libres y abiertas.
 
-Para la gestión documental existen diferentes opciones que se pueden ajustar según la escala y el tipo del proyecto o la necesidad, desde Invenio hasta AtoM u Omeka. En cuanto a la gestión de publicaciones académicas, el software por excelencia es el desarrollado por el [*Public Knowledge Project*](https://pkp.sfu.ca/), entre los que cabe destacar Open Journal System y Open Preprint Systems.
+Para la gestión documental existen diferentes opciones que se pueden ajustar según la escala y el tipo de proyecto o la necesidad, desde Invenio hasta AtoM u Omeka. En cuanto a la gestión de publicaciones académicas, el software por excelencia es el desarrollado por el [*Public Knowledge Project*](https://pkp.sfu.ca/), entre los que cabe destacar Open Journal System y Open Preprint Systems.
 
-En cuanto a la gestión de contenido para sitios web no solo existe una amplia gama de gestores de contenido libres y potentes. Wordpress o Drupal son buenas opciones para sitios que requieren un gran dinamismo. MediaWiki es ideal para gestionar conocimiento en formato *wiki*, además existen extensiones de este gestor que permiten la gestión de repositorios de datos abiertos y estructurados, como Wikibase y Semantic MediaWiki.
+En cuanto a la gestión de contenido para sitios web no solo existe una amplia gama de gestores de contenido libres y potentes. Wordpress o Drupal son buenas opciones para sitios que requieren un gran dinamismo. MediaWiki es ideal para gestionar conocimiento en formato *wiki*, además existen extensiones de este gestor que facilitan la organización de repositorios de datos abiertos y estructurados, como Wikibase y Semantic MediaWiki.
 
 Sin embargo, no siempre es necesario instalar un gestor de contenidos dinámicos. Según los requisitos del proyecto puede ser más eficaz montar un sitio web bajo el concepto [Jamstack](https://jamstack.org/) y tecnologías basadas en la generación de sitios sin necesidad de establecer un servidor web.
 

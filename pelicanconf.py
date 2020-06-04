@@ -55,7 +55,7 @@ TILE_TWO = {"title": "Contactar",
             "slug": "contactar.html",
             "css_class": "is-warning",
             "content":
-            "<a href='mailto:info@corujadigital.com'>info@corujadigital.com</a>"}
+            "¿Tienes alguna idea o propuesta que trasladarnos? ¿Estás interesado en alguno de nuestros servicios?"}
 TILE_THREE = {"title": "Clientes",
               "slug": "clientes.html",
               "image": "https://bulma.io/images/placeholders/640x480.png",

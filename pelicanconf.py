@@ -65,7 +65,7 @@ TILE_FOUR = {"title": "Quiénes somos",
              "slug": "acerca-de.html",
              "css_class": "is-link",
              "content":
-             "Pronto pondremos más información sobre Coruja Digital."}
+             "Somos un equipo multidisciplinar que ofrece diferentes servicios relacionados con las tecnologías de la información, la gestión, la comunicación y la difusión del patrimonio cultural, las humanidades digitales y la ciencia abierta."}
 
 FOOTER = ("El contenido del sitio web está bajo una licencia"
           " <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.es'>"

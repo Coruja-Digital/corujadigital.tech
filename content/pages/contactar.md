@@ -16,7 +16,7 @@ También puedes encontrarnos en [Twitter](https://twitter.com/coruja_dig) y en [
 
 ## Formulario de contacto
 
-<form name="contactar" method="POST" netlify>
+<form name="contactar" method="POST" action="contactar-exito.html" netlify>
   <div class="field">
     <label class="label">Nombre:</label>
     <div class="control">

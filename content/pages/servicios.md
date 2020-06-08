@@ -1,12 +1,10 @@
 title: Servicios
 date: 2020-04-17 02:21
-modified: 2020-06-04 18:00
+modified: 2020-06-08 19:00
 css_class: is-primary
 slug: servicios
 
-En Coruja Digital estamos preparados para abordar proyectos de diverso tipo gracias a [nuestro equipo](/acerca-de.html). Nuestros servicios se centran principalmente en el patrimonio cultural, las humanidades digitales, la ciencia abierta y el conocimiento libre.
-
-Nos interesan especialmente los proyectos en los que se realizan transferencias de conocimiento a la sociedad, una característica que consideramos esencial en todo proyecto en el que se gestione el conocimiento. Puedes contar con nosotros tanto si eres un particular, una empresa o una institución privada o pública.
+En Coruja Digital estamos preparados para abordar proyectos de diversa índole gracias a [nuestro equipo](/acerca-de.html) multidisciplinar.
 
 Entre los servicios que prestamos se encuentran:
 

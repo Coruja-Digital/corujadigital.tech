@@ -1,6 +1,6 @@
 title: Contactar
 date: 2020-04-17 02:21
-modified: 2020-06-08 17:00
+modified: 2020-06-09 17:50
 css_class: is-warning
 slug: contactar
 
@@ -12,7 +12,7 @@ Puedes hacernos una visita, pero lo mejor es concertar una cita para confirmar q
 
 Puedes contactar con nosotros a través del correo electrónico <a href="mailto:ivan@corujadigital.tech">ivan@corujadigital.tech</a> o con el formulario de contacto de abajo. También puedes llamarnos al <a href="tel:+34-681-638-290">+34-681-638-290</a> o enviarnos un mensaje de Whatsapp o Telegram a ese mismo número.
 
-También puedes encontrarnos en [Twitter](https://twitter.com/coruja_dig) y en [Instagram](https://instagram.com/coruja_dig).
+También puedes encontrarnos en [Twitter](https://twitter.com/coruja_dig), [Instagram](https://instagram.com/coruja_dig) y [LinkedIn](https://linkedin.com/company/coruja-dig).
 
 ## Formulario de contacto
 

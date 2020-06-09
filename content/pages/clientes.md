@@ -5,14 +5,21 @@ slug: clientes
 
 Algunos de los clientes que han contado con los [servicios](/servicios.html) de Coruja Digital han sido:
 
-## Casa África
+<figure class="image is-96x96 ml-2" style="float: right">
+  <img src="theme/casa_africa_logo.jpg">
+</figure>
 
+## Casa África
 <!--![Logo de Casa África](theme/casa_africa_logo.jpg)-->
 
   - *Taller-Charla África en Wikipedia (Mes de África)* (2020). Introducción a los proyectos Wikimedia en el contexto del [primer mes de África en Wikipedia en español](https://es.wikipedia.org/wiki/Wikipedia:Mes_de_%C3%81frica/2020). Véase la [agenda de Casa África](http://www.casafrica.es/agenda_europa_africa.jsp?DS28.PROID=916604). 
 
 ## Instituto Universitario de Análisis y Aplicaciones Textuales
 <!--![Logo del Instituto Universitario de Análisis y Aplicaciones Textuales](theme/iatext_ulpgc_logo.jpg)-->
+
+<figure class="image ml-2" style="width: 25%; float: right">
+  <img src="theme/iatext_ulpgc_logo.jpg">
+</figure>
 
   - *Wikidata-IATEXT* (2020, en curso). Continuación del proyecto realizado en 2018.
   - *Wikidata-IATEXT* (2018). Proyecto de curación de datos de la producción científica de los investigadores del [Instituto Universitario de Análisis y Aplicaciones Textuales](http://iatext.ulpgc.es) de la Universidad de Las Palmas de Gran Canaria. Véase la [noticia publicada en ULPGC Research](https://www.research.ulpgc.es/instituto-universitario-iatext-desarrolla-proyecto-wikidata-visibilizar-produccion-cientifica). 

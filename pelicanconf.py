@@ -58,7 +58,7 @@ TILE_TWO = {"title": "Contactar",
             "¿Tienes alguna idea o propuesta que trasladarnos? ¿Estás interesado en alguno de nuestros servicios?"}
 TILE_THREE = {"title": "Clientes",
               "slug": "clientes.html",
-              "image": "https://bulma.io/images/placeholders/640x480.png",
+              "image": "theme/clientes.jpg",
               "css_class": "is-info",
               "content": ""}
 TILE_FOUR = {"title": "Quiénes somos",

@@ -5,6 +5,10 @@ slug: clientes
 
 Algunos de los clientes que han contado con los [servicios](/servicios.html) de Coruja Digital han sido:
 
+## Servicio de Patrimonio Histórico del Cabildo Insular de Gran Canaria
+
+  - Creación de un documento CSV para la posterior incorporación masiva de la coleccón fotográfica del Paisaje Cultural Risco Caído y las Montañas Sagradas de Gran Canaria a la base de datos del sistema AtoM (2020).
+
 <figure class="image is-96x96 ml-2" style="float: right">
   <img src="theme/casa_africa_logo.jpg" alt="Logo de Casa África" />
 </figure>
@@ -14,7 +18,7 @@ Algunos de los clientes que han contado con los [servicios](/servicios.html) de 
 
   - *Taller-Charla África en Wikipedia (Mes de África)* (2020). Introducción a los proyectos Wikimedia en el contexto del [primer mes de África en Wikipedia en español](https://es.wikipedia.org/wiki/Wikipedia:Mes_de_%C3%81frica/2020). Véase la [agenda de Casa África](http://www.casafrica.es/agenda_europa_africa.jsp?DS28.PROID=916604). 
 
-## Instituto Universitario de Análisis y Aplicaciones Textuales
+## Instituto Universitario de Análisis y Aplicaciones Textuales (ULPGC)
 <!--![Logo del Instituto Universitario de Análisis y Aplicaciones Textuales](theme/iatext_ulpgc_logo.jpg)-->
 
 <figure class="image ml-2" style="width: 25%; float: right">

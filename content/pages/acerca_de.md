@@ -9,4 +9,4 @@ Nuestro equipo está coordinado por [Iván Hernández Cazorla](https://ivanherca
 
 Nos interesa especialmente la transferencia de conocimiento a la sociedad, un objetivo irrenunciable que cada vez tiene mayor relevancia. En Coruja Digital tenemos vocación *glocal* (local y global), y aunque nos encontramos físicamente en Canarias, estamos conectados con el resto del mundo. 
 
-¿Tienes alguna idea o propuesta que trasladarnos? ¿Estás interesado en alguno de nuestros proyectos? No dudes en contactar con nosotros en <a href="mailto:ivan@corujadigital.tech">ivan@corujadigital.tech</a>.
+¿Tienes alguna idea o propuesta que trasladarnos? ¿Estás interesado en alguno de nuestros proyectos? No dudes en [contactar con nosotros](/contactar.html).

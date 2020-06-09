@@ -6,7 +6,7 @@ slug: clientes
 Algunos de los clientes que han contado con los [servicios](/servicios.html) de Coruja Digital han sido:
 
 <figure class="image is-96x96 ml-2" style="float: right">
-  <img src="theme/casa_africa_logo.jpg">
+  <img src="theme/casa_africa_logo.jpg" alt="Logo de Casa África" />
 </figure>
 
 ## Casa África
@@ -18,7 +18,7 @@ Algunos de los clientes que han contado con los [servicios](/servicios.html) de 
 <!--![Logo del Instituto Universitario de Análisis y Aplicaciones Textuales](theme/iatext_ulpgc_logo.jpg)-->
 
 <figure class="image ml-2" style="width: 25%; float: right">
-  <img src="theme/iatext_ulpgc_logo.jpg">
+  <img src="theme/iatext_ulpgc_logo.jpg" alt="Logo del Instituto Universitario de Análisis y Aplicaciones Textuales de la Universidad de Las Palmas de Gran Canaria" />
 </figure>
 
   - *Wikidata-IATEXT* (2020, en curso). Continuación del proyecto realizado en 2018.

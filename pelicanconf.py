@@ -67,6 +67,7 @@ TILE_FOUR = {"title": "Quiénes somos",
              "content":
              "Somos un equipo multidisciplinar que ofrece diferentes servicios relacionados con las tecnologías de la información, la gestión, la comunicación y la difusión del patrimonio cultural, las humanidades digitales y la ciencia abierta."}
 
-FOOTER = ("El contenido del sitio web está bajo una licencia"
+FOOTER = ("<a href='/creditos.html'>Créditos</a> del software y elementos gráficos utilizados.<br>"
+          "El contenido del sitio web está bajo una licencia"
           " <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.es'>"
           "Creative Commons BY-SA 4.0</a>.")

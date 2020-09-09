@@ -10,6 +10,7 @@ SITEURL = 'https://corujadigital.tech'
 PATH = 'content'
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
+STATIC_PATHS = ["documentos"]
 
 THEME = "theme"
 

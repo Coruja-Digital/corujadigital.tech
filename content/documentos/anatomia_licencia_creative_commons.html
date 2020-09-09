@@ -30,6 +30,24 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealjs/css/print/pdf.css' : 'revealjs/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<!-- Matomo -->
+        <script type="text/javascript">
+            var _paq = window._paq || [];
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            _paq.push(["setDoNotTrack", true]);
+            _paq.push(["disableCookies"]);
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="//stats.corujadigital.tech/";
+                _paq.push(['setTrackerUrl', u+'matomo.php']);
+                _paq.push(['setSiteId', '1']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <noscript><p><img src="//stats.corujadigital.tech/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+        <!-- End Matomo Code -->
 	</head>
 	<body>
 		<div class="reveal">
@@ -269,7 +287,7 @@
 					</section>
 				</section>
 				<section>
-					<h4>Conclusió</h4>
+					<h4>Conclusión</h4>
 					<p style="font-size: 16pt">Creative Commons ofrece un paquete de licencias que puede adaptarse
 					a las necesidades o intereses de cualquiera, y que fácil de usar y de
 					entender gracias a su diseño de tres capas.</p>
@@ -284,8 +302,8 @@
 					<img src="img/cc-by-sa.png" alt="CC-SA-BY" style="width: 12%; float: right"/>
 				</section>
 				<section>
-					<p>Presentación disponible en Coruja Digitalb</p>
-					<p><small><a href="https://corujadigital.tech/recursos_liberados">https://corujadigital.tech/recursos_liberados</a></small></p>
+					<p>Presentación disponible en Coruja Digital</p>
+					<p><small><a href="https://corujadigital.tech/recursos_liberados.html">https://corujadigital.tech/recursos_liberados.html</a></small></p>
 				</section>
 			</div>
 		</div>

@@ -5,9 +5,15 @@ slug: clientes
 
 Algunos de los clientes que han contado con los [servicios](/servicios.html) de Coruja Digital han sido:
 
-## Servicio de Patrimonio Histórico del Cabildo Insular de Gran Canaria
+<figure class="image ml-2" style="width: 20%; float: right">
+  <img src="theme/byd-canarias_logo.png" alt="Logo de la Asociación de Bibliotecarios y Documentalistas de Canarias" />
+</figure>
 
-  - Creación de un documento CSV para la posterior incorporación masiva de la coleccón fotográfica del Paisaje Cultural Risco Caído y las Montañas Sagradas de Gran Canaria a la base de datos del sistema AtoM (2020).
+## Asociación de Bibliotecarios/as y Documentalistas de Canarias
+
+<small>[Sitio web de la Asociación de Bibliotecarios y Documentalistas de Canarias](https://bydcanarias.es)</small>
+
+  - *Curso de introducción a Wikipedia, Wikimedia Commons y Wikidata* (2020). ***Nota***: cuando se acabe el curso se publicarán los materiales de apoyo elaborado y las vídeoclases bajo una licencia libre.
 
 <figure class="image is-96x96 ml-2" style="float: right">
   <img src="theme/casa_africa_logo.jpg" alt="Logo de Casa África" />
@@ -28,3 +34,6 @@ Algunos de los clientes que han contado con los [servicios](/servicios.html) de 
   - *Wikidata-IATEXT* (2020, en curso). Continuación del proyecto realizado en 2018.
   - *Wikidata-IATEXT* (2018). Proyecto de curación de datos de la producción científica de los investigadores del [Instituto Universitario de Análisis y Aplicaciones Textuales](http://iatext.ulpgc.es) de la Universidad de Las Palmas de Gran Canaria. Véase la [noticia publicada en ULPGC Research](https://www.research.ulpgc.es/instituto-universitario-iatext-desarrolla-proyecto-wikidata-visibilizar-produccion-cientifica). 
 
+## Servicio de Patrimonio Histórico del Cabildo Insular de Gran Canaria
+
+  - Creación de un documento CSV para la posterior incorporación masiva de la coleccón fotográfica del Paisaje Cultural Risco Caído y las Montañas Sagradas de Gran Canaria a la base de datos del sistema AtoM (2020).

@@ -13,7 +13,7 @@ Algunos de los clientes que han contado con los [servicios](/servicios.html) de 
 
 <small>[Sitio web de la Asociación de Bibliotecarios y Documentalistas de Canarias](https://bydcanarias.es)</small>
 
-  - *Curso de introducción a Wikipedia, Wikimedia Commons y Wikidata* (2020). [Consultar el programa didáctico y el material liberados](https://bydcanarias.es/introduccion-wikimedia/). 
+  - *Curso de introducción a Wikipedia, Wikimedia Commons y Wikidata* (2020).<br>[Programa didáctico y material liberado](https://bydcanarias.es/introduccion-wikimedia/). 
 
 <figure class="image is-96x96 ml-2" style="float: right">
   <img src="theme/casa_africa_logo.jpg" alt="Logo de Casa África" />

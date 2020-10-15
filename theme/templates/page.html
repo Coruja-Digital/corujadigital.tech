@@ -13,37 +13,41 @@
 {% endblock %}
 
 {% block content %}
-    <section class="hero {% if page.css_class %}{{ page.css_class }}{% else %}is-link{% endif %}" style="padding: 3rem 1.5rem; margin-top: 1.5rem">
-        <div class="hero-head" style="padding: 3rem 1.5rem">
-            <div class="container">
-                <div class="level">
-                    <div class="level-left">
-                        <h1 class="title">
-                            {{ page.title }}
-                        </h1>
-                        {% if page.subtitle %}
-                            <h2 class="subtitle">
-                                {{ page.subtitle }}
-                            </h2>
-                        {% endif %}
-                    </div>
-                    <div class="level-right has-text-right">
-                        <p>
-                            <time itemprop="dateCreated" datetime="{{ page.date.isoformat() }}">{{ page.locale_date }}</time>
-                        </p>
-                    </div>
-                </div>
+	<section class="section">
+		<div class="columns is-centered is-vcentered">
+			<div class="column is-three-fifths">
+				<div class="card">
+					<header class="card-header">
+						<div class="column">
+							<h1 class="card-header-title title">
+								{{ page.title }}
+							</h1>
+							{% if page.subtitle %}
+								<h2 class="subtitle">
+									{{ page.subtitle }}
+								</h2>
+							{% endif %}
+						</div>
+						<div class="column is-narrow has-text-right mt-5">
+              <p>
+                <time itemprop="dateCreated" datetime="{{ page.date.isoformat() }}">{{ page.locale_date }}</time>
+              </p>
             </div>
-        </div>
-        <div class="hero-body page-body">
-            {{ page.content }}
-        </div>
-        <div class="hero-foot page-foot">
+					</header>
+					<div class="card-content">
+						<div class="content">
+						  {{ page.content }}
+						</div>
+					</div>
+					<footer class="card-footer">
             {% if page.modified %}
-                Última actualización: {{ page.locale_modified }}
+							<p class="card-footer-item">Última actualización: {{ page.locale_modified }}</p>
             {% endif %}
-        </div>
-    </section>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</section>
     <!--
     <h1>{{ page.title }}</h1>
     {% import 'translations.html' as translations with context %}

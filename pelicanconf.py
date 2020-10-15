@@ -47,28 +47,58 @@ WARN = ("<p>¡Estamos desarrollando el sitio web! Esperamos tenerlo lo"
         " con nosotros en <a href='mailto:ivan@corujadigital.tech'>"
         " ivan@corujadigital.tech</a></p>")
 
-TILE_ONE = {"title": "Qué hacemos",
+CARD_ONE = {"title": "Qué hacemos",
             "slug": "servicios.html",
             "css_class": "is-primary",
+            "more": "Conoce nuestros servicios",
             "content":
-            "Patrimonio cultural<br>Humanidades digitales<br>Conocimiento libre</br>Ciencia abierta<br>Tecnología"}
-TILE_TWO = {"title": "Contactar",
+            "<div class='tags are-large is-centered m-2'>"
+            "<span class='tag'>Patrimonio cultural</span>"
+            "<span class='tag'>Humanidades digitales</span>"
+            "<span class='tag'>Conocimiento libre</span>"
+            "<span class='tag'>Ciencia abierta</span>"
+            "<span class='tag'>Tecnología</span>"
+            "<span class='tag'>MediaWiki</span>"
+            "<span class='tag'>Semantic MediaWiki</span>"
+            "<span class='tag'>Wikibase</span></div>"}
+CARD_TWO = {"title": "Contactar",
             "slug": "contactar.html",
             "css_class": "is-warning",
+            "more": "Contactar",
             "content":
             "¿Tienes alguna idea o propuesta que trasladarnos? ¿Estás interesado en alguno de nuestros servicios?"}
-TILE_THREE = {"title": "Clientes",
+CARD_THREE = {"title": "Clientes",
               "slug": "clientes.html",
               "image": "theme/clientes.jpg",
+              "more": "Conoce los proyectos que hemos realizado",
               "css_class": "is-info",
               "content": ""}
-TILE_FOUR = {"title": "Quiénes somos",
+CARD_FOUR = {"title": "Quiénes somos",
              "slug": "acerca-de.html",
              "css_class": "is-link",
+             "more": "Leer más",
              "content":
              "Somos un equipo multidisciplinar que ofrece diferentes servicios relacionados con las tecnologías de la información, la gestión, la comunicación y la difusión del patrimonio cultural, las humanidades digitales y la ciencia abierta."}
+
+CARD_FIVE = {"title": "Recursos liberados",
+             "slug": "recursos_liberados.html",
+             "css_class": "is-link",
+             "more": "Accede a nuestros recursos",
+             "content":
+             "Creemos en el conocimiento y el software libre,"
+             " por ello liberamos gran parte del contenido que producimos,"
+             " desde presentaciones a programas. Además, incentivamos a"
+             " nuestros clientes a unirse a esta iniciativa."}
+
 
 FOOTER = ("<a href='/creditos.html'>Créditos</a> del software y elementos gráficos utilizados.<br>"
           "El contenido del sitio web está bajo una licencia"
           " <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.es'>"
           "Creative Commons BY-SA 4.0</a>.")
+
+NAVBARMAIN = (("Inicio", "https://corujadigital.tech"),
+              ("Quiénes somos", "/acerca_de.html"),
+              ("Servicios", "/servicios.html"),
+              ("Clientes", "/clientes.html"),
+              ("Recursos liberados", "/recursos_liberados.html"),
+              ("Contactar", "/contactar.html"))

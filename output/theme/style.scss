@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+// Colors
+$is-success: #FFFADE;
+
+$body-background-color: $is-success;
+
+// Imports
+@import "../../node_modules/bulma/bulma.sass";

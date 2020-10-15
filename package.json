@@ -1,0 +1,27 @@
+{
+  "name": "coruja_theme",
+  "version": "1.0.0",
+  "description": "theme for corujadigital.tech",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url theme/static/style.scss theme/static/css/style.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coruja-Digital/corujadigital.tech.git"
+  },
+  "keywords": [
+    "bulma"
+  ],
+  "author": "Iván Hernández Cazorla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Coruja-Digital/corujadigital.tech/issues"
+  },
+  "homepage": "https://github.com/Coruja-Digital/corujadigital.tech#readme",
+  "devDependencies": {
+    "bulma": "^0.9.1",
+    "node-sass": "^4.14.1"
+  }
+}

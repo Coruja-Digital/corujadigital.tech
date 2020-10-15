@@ -1,54 +1,120 @@
 {% extends "base.html" %}
 {% block content %}
-    <div class="tile">
-        <div class="tile is-parent">
-            <article class="tile is-child notification {{ TILE_FOUR['css_class'] }}">
-                <div class="content">
-                    <p class="title mb-6">
-                        <a href="{{ TILE_FOUR['slug'] }}">
-                        {{ TILE_FOUR["title"] }}</a>
-                    </p>
-                    <p class="subtitle">{{ TILE_FOUR["content"] }}</p>
-                </div>
-            </article>
-        </div>
-        <div class="tile is-vertical is-8">
-            <div class="tile">
-                <div class="tile is-parent is-vertical">
-                    <article class="tile is-child notification {{ TILE_ONE['css_class'] }}">
-                        <p class="title mb-6">
-                            <a href="{{ TILE_ONE['slug'] }}">
-                            {{ TILE_ONE["title"] }}</a>
-                        </p>
-                        <p class="subtitle">{{ TILE_ONE["content"] }}</p>
-                    </article>
-                    <article class="tile is-child notification {{ TILE_TWO['css_class'] }}">
-                        <p class="title mb-6">
-                            <a href="{{ TILE_TWO['slug'] }}">
-                            {{ TILE_TWO["title"] }}</a>
-                        </p>
-                        {% if TILE_TWO["content"] %}
-                            <p class="subtitle">{{ TILE_TWO["content"] }}</p>
-                        {% endif %}
-                    </article>
-                </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child notification {{ TILE_THREE['css_class'] }}">
-                        <p class="title mb-6">
-                            <a href="{{ TILE_THREE['slug'] }}">
-                            {{ TILE_THREE["title"] }}</a>
-                        </p>
-                        {% if TILE_THREE["content"] %}
-                            <p class="subtitle">{{ TILE_THREE["content"] }}</p>
-                        {% endif %}
-                        {% if TILE_THREE["image"] %}
-                            <figure class="image is-4by3">
-                                <img src="{{ TILE_THREE['image'] }}" />
-                            </figure>
-                        {% endif %}
-                    </article>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="section">
+  <div class="columns is-centered">
+		<div class="column is-half">
+			<div class="card">
+				<div class="card-header pt-4 is-shadowless has-text-centered">
+					<h2 class="card-header-title title">
+						{{ CARD_FOUR["title"] }}
+					</h2>
+				</div>
+				<div class="card-content">
+					<div class="content">
+						<p class="subtitle">
+							{{ CARD_FOUR["content"] }}
+						</p>
+					</div>
+				</div>
+				<footer class="card-footer">
+					<a href="{{ CARD_FOUR['slug'] }}" class="card-footer-item">{{ CARD_FOUR["more"] }}</a>
+				</footer>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section">
+  <div class="columns is-centered">
+		<div class="column is-half">
+			<div class="card">
+				<div class="card-header pt-4 is-shadowless has-text-centered">
+					<h2 class="card-header-title title">
+						{{ CARD_ONE["title"] }}
+					</h2>
+				</div>
+				<div class="card-content">
+					<div class="content">
+						<p class="subtitle">
+							{{ CARD_ONE["content"] }}
+						</p>
+					</div>
+				</div>
+				<footer class="card-footer">
+					<a href="{{ CARD_ONE['slug'] }}" class="card-footer-item">{{ CARD_ONE["more"] }}</a>
+				</footer>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section">
+  <div class="columns is-centered">
+		<div class="column is-half">
+			<div class="card">
+				<div class="card-header pt-4 is-shadowless has-text-centered">
+					<h2 class="card-header-title title">
+						{{ CARD_THREE["title"] }}
+					</h2>
+				</div>
+				<div class="card-content has-text-centered">
+					<div class="content">
+						<figure class="image is-256x256 is-centered is-inline-block" style="max-width: 580px">
+							<img src="theme/clientes.jpg">
+						</figure>
+						<p class="subtitle">
+							{{ CARD_THREE["content"] }}
+						</p>
+					</div>
+				</div>
+				<footer class="card-footer">
+					<a href="{{ CARD_THREE['slug'] }}" class="card-footer-item">{{ CARD_THREE["more"] }}</a>
+				</footer>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section">
+  <div class="columns is-centered">
+		<div class="column is-half">
+			<div class="card">
+				<div class="card-header pt-4 is-shadowless has-text-centered">
+					<h2 class="card-header-title title">
+						{{ CARD_FIVE["title"] }}
+					</h2>
+				</div>
+				<div class="card-content">
+					<div class="content">
+						<p class="subtitle">
+							{{ CARD_FIVE["content"] }}
+						</p>
+					</div>
+				</div>
+        <footer class="card-footer">
+					<a href="{{ CARD_FIVE['slug'] }}" class="card-footer-item">{{ CARD_FIVE["more"] }}</a>
+				</footer>
+		</div>
+	</div>
+</section>
+<section class="section">
+  <div class="columns is-centered">
+		<div class="column is-half">
+			<div class="card">
+				<div class="card-header pt-4 is-shadowless has-text-centered">
+					<h2 class="card-header-title title">
+						{{ CARD_TWO["title"] }}
+					</h2>
+				</div>
+				<div class="card-content">
+					<div class="content">
+						<p class="subtitle">
+							{{ CARD_TWO["content"] }}
+						</p>
+					</div>
+				</div>
+        <footer class="card-footer">
+					<a href="{{ CARD_TWO['slug'] }}" class="card-footer-item">{{ CARD_TWO["more"] }}</a>
+				</footer>
+		</div>
+	</div>
+</section>
+
 {% endblock content %}

@@ -1,9 +1,63 @@
 @charset "utf-8";
 
 // Colors
-$is-success: #FFFADE;
+$sand: #EEE8A9;
+$cloud: #E6F4F1;
+$sea: #0058AD;
+$sky: #00A6DE;
+$deep: #363636;
 
-$body-background-color: $is-success;
+$primary: $cloud;
+$link: $sea;
+$info: $sky;
+$success: $deep;
+$warning: $sand;
+
+// Borders
+$border-light: $info;
+
+// Body
+$body-background-color: $primary;
+
+// Navbar
+$navbar-background-color: $info;
+$navbar-item-color: $primary;
+$navbar-item-hover-color: $link;
+$navbar-item-hover-background-color: $warning;
+
+// Sections
+section {
+	&:nth-of-type(odd) {
+		background-color: $link;
+		h2, p {
+			color: $warning;
+		}
+	}
+	&:nth-of-type(even) {
+		background-color: $primary;
+		h2, p {
+			color: $deep;
+		}
+	}
+}
+
+// Cards
+$card-background-color: none;
+$card-shadow: none;
+$card-footer-background-color: $info;
+$card-footer-color: $warning;
+
+.card-footer-item {
+	color: $warning;
+	font-weight: bold;
+	}
+
+// Tags
+$tag-background-color: $warning;
+$tag-color: $link;
+
+// Footer
+$footer-background-color: $sand;
 
 // Imports
 @import "../../node_modules/bulma/bulma.sass";

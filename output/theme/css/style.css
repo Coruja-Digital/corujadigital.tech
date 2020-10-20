@@ -364,7 +364,7 @@ span {
   font-weight: inherit; }
 
 strong {
-  color: #363636;
+  color: #e1d665;
   font-weight: 700; }
 
 fieldset {
@@ -2729,7 +2729,7 @@ a.tag:hover {
     font-size: 14px; }
 
 .label {
-  color: #363636;
+  color: #e1d665;
   display: block;
   font-size: 1rem;
   font-weight: 700; }

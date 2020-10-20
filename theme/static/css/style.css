@@ -444,7 +444,7 @@ a.box:active {
     margin-right: calc(-0.5em - 1px); }
   .button:hover, .button.is-hovered {
     border-color: #b5b5b5;
-    color: #EEE8A9; }
+    color: #00A6DE; }
   .button:focus, .button.is-focused {
     border-color: #3273dc;
     color: #363636; }

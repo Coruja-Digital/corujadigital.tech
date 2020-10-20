@@ -1,14 +1,25 @@
 @charset "utf-8";
 
+// Functions
+@function findDarkColor($color) {
+	@if type-of($color) == 'color' {
+		@return scale-color($color, $lightness: -20%);
+	}
+	@return $dark;
+}
 // Colors
 $sand: #EEE8A9;
+$sand-darker: findDarkColor($sand);
 $cloud: #E6F4F1;
 $sea: #0058AD;
 $sky: #00A6DE;
 $deep: #363636;
+$white: #fff;
+$grey: #4A4A4A;
 
 $primary: $cloud;
-$link: $sea;
+$secondary: $sea;
+$link: $white;
 $info: $sky;
 $success: $deep;
 $warning: $sand;
@@ -16,21 +27,25 @@ $warning: $sand;
 // Borders
 $border-light: $info;
 
+// Links
+$link-hover: $warning;
+
 // Body
 $body-background-color: $primary;
+$body-color: $grey;
 
 // Navbar
 $navbar-background-color: $info;
 $navbar-item-color: $primary;
-$navbar-item-hover-color: $link;
+$navbar-item-hover-color: $secondary;
 $navbar-item-hover-background-color: $warning;
 
 // Sections
 section {
 	&:nth-of-type(odd) {
-		background-color: $link;
+		background-color: $secondary;
 		h2, p {
-			color: $warning;
+			color: $white;
 		}
 	}
 	&:nth-of-type(even) {
@@ -44,20 +59,35 @@ section {
 // Cards
 $card-background-color: none;
 $card-shadow: none;
+$card-header-color: $white;
 $card-footer-background-color: $info;
-$card-footer-color: $warning;
+$card-footer-color: $white;
 
 .card-footer-item {
-	color: $warning;
+	color: $white;
 	font-weight: bold;
+}
+
+.card-content {
+	a {
+		color: $sand-darker;
 	}
+	li {
+		color: $white;
+	}
+}
 
 // Tags
 $tag-background-color: $warning;
-$tag-color: $link;
+$tag-color: $secondary;
 
 // Footer
 $footer-background-color: $sand;
+footer {
+	a {
+		color: $info;
+	}
+}
 
 // Imports
 @import "../../node_modules/bulma/bulma.sass";

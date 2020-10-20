@@ -20,6 +20,11 @@ section:nth-of-type(even) {
 
 footer a {
   color: #00A6DE; }
+  footer a:hover {
+    color: #363636; }
+
+footer strong {
+  color: #4A4A4A; }
 
 /*! bulma.io v0.9.1 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */

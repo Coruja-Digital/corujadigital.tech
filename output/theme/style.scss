@@ -91,6 +91,12 @@ $footer-background-color: $sand;
 footer {
 	a {
 		color: $info;
+		&:hover {
+			color: $success;
+		}
+	}
+	strong {
+		color: $grey;
 	}
 }
 

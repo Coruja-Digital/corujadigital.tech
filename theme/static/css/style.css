@@ -3017,7 +3017,7 @@ a.tag:hover {
 .card-header {
   background-color: transparent;
   align-items: stretch;
-  box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1);
+  box-shadow: 0 0.125em 0.25em rgba(225, 214, 101, 0.15);
   display: flex; }
 
 .card-header-title {

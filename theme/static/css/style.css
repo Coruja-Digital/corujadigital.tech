@@ -7,6 +7,8 @@ section:nth-of-type(even) {
   background-color: #E6F4F1; }
   section:nth-of-type(even) h2, section:nth-of-type(even) p {
     color: #363636; }
+  section:nth-of-type(even) .card-header-title {
+    color: #363636; }
 
 .card-footer-item {
   color: #fff;

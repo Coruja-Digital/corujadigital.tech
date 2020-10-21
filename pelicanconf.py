@@ -103,5 +103,6 @@ NAVBARMAIN = (("Inicio", "https://corujadigital.tech"),
               ("Quiénes somos", "/acerca_de"),
               ("Servicios", "/servicios"),
               ("Clientes", "/clientes"),
+              ("Blog", "/blog"),
               ("Recursos liberados", "/recursos_liberados"),
               ("Contactar", "/contactar"))

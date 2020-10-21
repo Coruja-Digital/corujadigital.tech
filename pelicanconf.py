@@ -9,11 +9,12 @@ SITEURL = 'https://corujadigital.tech'
 
 ARTICLE_PATHS = ['blog']
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
-ARTICLE_URL = 'blog/{slug}.html'
+ARTICLE_URL = 'blog/{slug}'
 PATH = 'content'
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
 STATIC_PATHS = ["documentos"]
+TEMPLATE_PAGES = {'blog.html': 'blog.html'}
 
 THEME = "theme"
 
@@ -99,8 +100,8 @@ FOOTER = ("<a href='/creditos.html'>Créditos</a> del software y elementos gráf
           "Creative Commons BY-SA 4.0</a>.")
 
 NAVBARMAIN = (("Inicio", "https://corujadigital.tech"),
-              ("Quiénes somos", "/acerca_de.html"),
-              ("Servicios", "/servicios.html"),
-              ("Clientes", "/clientes.html"),
-              ("Recursos liberados", "/recursos_liberados.html"),
-              ("Contactar", "/contactar.html"))
+              ("Quiénes somos", "/acerca_de"),
+              ("Servicios", "/servicios"),
+              ("Clientes", "/clientes"),
+              ("Recursos liberados", "/recursos_liberados"),
+              ("Contactar", "/contactar"))

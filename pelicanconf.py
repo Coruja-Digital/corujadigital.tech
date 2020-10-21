@@ -7,6 +7,9 @@ SITENAME = 'Coruja Digital'
 SUBTITLE = 'Tecnologías de la información y la comunicación para el patrimonio y la ciencia abierta'
 SITEURL = 'https://corujadigital.tech'
 
+ARTICLE_PATHS = ['blog']
+ARTICLE_SAVE_AS = 'blog/{slug}.html'
+ARTICLE_URL = 'blog/{slug}.html'
 PATH = 'content'
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
@@ -89,7 +92,6 @@ CARD_FIVE = {"title": "Recursos liberados",
              " por ello liberamos gran parte del contenido que producimos,"
              " desde presentaciones a programas. Además, incentivamos a"
              " nuestros clientes a unirse a esta iniciativa."}
-
 
 FOOTER = ("<a href='/creditos.html'>Créditos</a> del software y elementos gráficos utilizados.<br>"
           "El contenido del sitio web está bajo una licencia"

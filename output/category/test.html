@@ -191,11 +191,25 @@
 						Clientes
 					</h2>
 				</div>
-				<div class="card-content has-text-centered">
+				<div class="card-content has-text-centered is-vcentered">
 					<div class="content">
-						<figure class="image is-256x256 is-centered is-inline-block" style="max-width: 580px">
-							<img src="theme/clientes.jpg">
-						</figure>
+						<div id="carousel-clientes" class="carousel">
+							<div class="item-1">
+								<figure class="image is-256x256 is-centered is-inline-block has-background-white" style="max-width: 580px">
+									<img src="theme/byd-canarias_logo.png">
+								</figure>
+							</div>
+							<div class="item-2">
+								<figure class="image is-256x256 is-centered is-inline-block has-background-white" style="max-width: 380px">
+									<img src="theme/casa_africa_logo.jpg">
+								</figure>
+							</div>
+							<div class="item-3">
+								<figure class="image is-256x256 is-centered is-inline-block has-background-white" style="max-width: 580px">
+									<img src="theme/iatext_ulpgc_logo.jpg">
+								</figure>
+							</div>
+						</div>
 						<p class="subtitle">
 							
 						</p>
@@ -252,7 +266,6 @@
 		</div>
 	</div>
 </section>
-
         <footer class="footer is-success is-fullheight">
             <div class="content has-text-centered">
                 <p>
@@ -262,5 +275,16 @@
                 </p>
             </div>
         </footer>
+				<script src="/theme/js/bulma-carousel.min.js"></script>
+				<script>
+					bulmaCarousel.attach('#carousel-clientes', {
+					slidesToScroll: 1,
+					slidesToShow: 1,
+					navigationKeys: false,
+					loop: true,
+					autoplay: true,
+					autoplaySpeed: 2000
+				});
+				</script>
     </body>
 </html>

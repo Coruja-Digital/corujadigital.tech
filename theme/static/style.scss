@@ -41,6 +41,11 @@ $navbar-item-color: $primary;
 $navbar-item-hover-color: $secondary;
 $navbar-item-hover-background-color: $warning;
 
+// Pseudo-general
+:focus {
+	outline: 0px;
+}
+
 // Sections
 section {
 	&:nth-of-type(odd) {
@@ -106,5 +111,10 @@ footer {
 	}
 }
 
+// Carousel
+.slider-container {
+	align-items: center;
+}
 // Imports
 @import "../../node_modules/bulma/bulma.sass";
+@import "../../node_modules/bulma-carousel/src/sass/index.sass";

@@ -70,6 +70,7 @@ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml"
 rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
 				<link href="/theme/css/style.css" rel="stylesheet" type="text/css" />
+				<link href="/theme/css/cookieconsent.min.css" rel="stylesheet" type="text/css" />
 				<script src="/theme/navbar.js"></script>
         <script
         defer
@@ -182,6 +183,8 @@ rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
             </div>
         </footer>
 				<script src="/theme/js/bulma-carousel.min.js"></script>
+				<script src="/theme/js/cookieconsent.min.js"></script>
+				<script src="/theme/js/cookieconsent-initializer.js"></script>
 				<script>
 					bulmaCarousel.attach('#carousel-clientes', {
 					slidesToScroll: 1,

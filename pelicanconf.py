@@ -97,7 +97,9 @@ CARD_FIVE = {"title": "Recursos liberados",
 FOOTER = ("<a href='/creditos.html'>Créditos</a> del software y elementos gráficos utilizados.<br>"
           "El contenido del sitio web está bajo una licencia"
           " <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.es'>"
-          "Creative Commons BY-SA 4.0</a>.")
+          "Creative Commons BY-SA 4.0</a>.<br>"
+          "<a href='/aviso-legal'>Aviso legal</a><br>"
+          "<a href='/politica-privacidad'>Política de privacidad</a>")
 
 NAVBARMAIN = (("Inicio", "https://corujadigital.tech"),
               ("Quiénes somos", "/acerca_de"),

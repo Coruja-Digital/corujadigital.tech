@@ -25,6 +25,7 @@
     "node-sass": "^4.14.1"
   },
   "dependencies": {
-    "bulma-carousel": "^4.0.4"
+    "bulma-carousel": "^4.0.4",
+    "cookieconsent": "^3.1.1"
   }
 }

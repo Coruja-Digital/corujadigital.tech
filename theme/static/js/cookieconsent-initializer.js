@@ -2,7 +2,7 @@ message = "Este sitio web utiliza unas pocas cookies para garantizar una mejor e
 allow = "Permitir cookies"
 link = "Más información en nuestra política de privacidad."
 deny = "Rechazar"
-href = "aviso-legal"
+href = "politica-privacidad"
 
 window.cookieconsent.initialise({
 	overrideHTML: true,

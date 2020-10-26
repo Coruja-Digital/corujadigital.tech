@@ -1,3 +1,6 @@
+.is-boxshadow {
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1); }
+
 :focus {
   outline: 0px; }
 

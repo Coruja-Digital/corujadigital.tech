@@ -36,6 +36,8 @@ footer strong {
 
 .slider-container {
   align-items: center; }
+  .slider-container figure {
+    max-width: 580px; }
 
 /*! bulma.io v0.9.1 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */

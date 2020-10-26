@@ -120,6 +120,10 @@ footer {
 // Carousel
 .slider-container {
 	align-items: center;
+
+	figure {
+		max-width: 580px;
+	}
 }
 // Imports
 @import "../../node_modules/bulma/bulma.sass";

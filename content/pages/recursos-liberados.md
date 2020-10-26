@@ -1,7 +1,7 @@
 title: Recursos liberados
 date: 2020-09-14 19:30
 modified: 2020-09-14 19:30
-slug: recursos_liberados
+slug: recursos-liberados
 
 Esta página recopila los diferentes recursos que Coruja Digital ha elaborado y ha decidido liberar.
 

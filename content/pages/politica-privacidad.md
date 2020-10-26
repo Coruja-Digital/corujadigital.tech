@@ -46,7 +46,9 @@ Este sitio web tiene blog, pero no aporta ningún sistema de comentarios, razón
 
 ## ¿Dónde se guardan los datos personales?
 
-Dada la naturaleza digital de esta actividad, todos los datos personales de este sitio web se almacenan en el alojamiento web proporcionado por los servidores de Frantech.
+Dada la naturaleza digital de esta actividad, todos los datos personales de este sitio web se almacenan en el alojamiento web proporcionado por los servidores de Frantech, en los que también se guarda los correos electrónicos recibidos y enviados por Coruja Digital.
+
+El contenido del sitio web **no contiene datos personales recopilados**. Se genera a partir del [repositorio disponible en GitHub](https://github.com/Coruja-Digital/corujadigital.tech) y [Netlify](https://netlify.com).
 
 ## ¿Cuánto tiempo se guardan los datos?
 

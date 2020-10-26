@@ -52,7 +52,7 @@ WARN = ("<p>¡Estamos desarrollando el sitio web! Esperamos tenerlo lo"
         " ivan@corujadigital.tech</a></p>")
 
 CARD_ONE = {"title": "Qué hacemos",
-            "slug": "servicios.html",
+            "slug": "servicios",
             "css_class": "is-primary",
             "more": "Conoce nuestros servicios",
             "content":
@@ -66,26 +66,26 @@ CARD_ONE = {"title": "Qué hacemos",
             "<span class='tag'>Semantic MediaWiki</span>"
             "<span class='tag'>Wikibase</span></div>"}
 CARD_TWO = {"title": "Contactar",
-            "slug": "contactar.html",
+            "slug": "contactar",
             "css_class": "is-warning",
             "more": "Contactar",
             "content":
             "¿Tienes alguna idea o propuesta que trasladarnos? ¿Estás interesado en alguno de nuestros servicios?"}
 CARD_THREE = {"title": "Clientes",
-              "slug": "clientes.html",
+              "slug": "clientes",
               "image": "theme/clientes.jpg",
               "more": "Conoce los proyectos que hemos realizado",
               "css_class": "is-info",
               "content": ""}
 CARD_FOUR = {"title": "Quiénes somos",
-             "slug": "acerca-de.html",
+             "slug": "acerca-de",
              "css_class": "is-link",
              "more": "Leer más",
              "content":
              "Somos un equipo multidisciplinar que ofrece diferentes servicios relacionados con las tecnologías de la información, la gestión, la comunicación y la difusión del patrimonio cultural, las humanidades digitales y la ciencia abierta."}
 
 CARD_FIVE = {"title": "Recursos liberados",
-             "slug": "recursos_liberados.html",
+             "slug": "recursos_liberados",
              "css_class": "is-link",
              "more": "Accede a nuestros recursos",
              "content":
@@ -94,7 +94,7 @@ CARD_FIVE = {"title": "Recursos liberados",
              " desde presentaciones a programas. Además, incentivamos a"
              " nuestros clientes a unirse a esta iniciativa."}
 
-FOOTER = ("<a href='/creditos.html'>Créditos</a> del software y elementos gráficos utilizados.<br>"
+FOOTER = ("<a href='/creditos'>Créditos</a> del software y elementos gráficos utilizados.<br>"
           "El contenido del sitio web está bajo una licencia"
           " <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.es'>"
           "Creative Commons BY-SA 4.0</a>.<br>"
@@ -102,9 +102,9 @@ FOOTER = ("<a href='/creditos.html'>Créditos</a> del software y elementos gráf
           "<a href='/politica-privacidad'>Política de privacidad</a>")
 
 NAVBARMAIN = (("Inicio", "https://corujadigital.tech"),
-              ("Quiénes somos", "/acerca_de"),
+              ("Quiénes somos", "/acerca-de"),
               ("Servicios", "/servicios"),
               ("Clientes", "/clientes"),
               ("Blog", "/blog"),
-              ("Recursos liberados", "/recursos_liberados"),
+              ("Recursos liberados", "/recursos-liberados"),
               ("Contactar", "/contactar"))

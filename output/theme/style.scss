@@ -132,6 +132,11 @@ footer {
 	@extend .mb-4;
 }
 
+#matomo-opt-out {
+	width: 100%;
+	border: 0px;
+}
+
 // Imports
 @import "../../node_modules/bulma/bulma.sass";
 @import "../../node_modules/bulma-carousel/src/sass/index.sass";

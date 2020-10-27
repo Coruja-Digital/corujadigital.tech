@@ -102,6 +102,17 @@ $button-hover-color: $info;
 
 // Forms
 $label-color: $sand-darker;
+.checkbox, .radio {
+	color: $white;
+
+	&:hover {
+		color: $sand !important;
+	}
+}
+
+form {
+	@extend .mb-5;
+}
 
 // Footer
 $footer-background-color: $sand;
@@ -109,7 +120,7 @@ footer {
 	a {
 		color: $info;
 		&:hover {
-			color: $success;
+			color: $sand;
 		}
 	}
 	strong {

@@ -26,10 +26,15 @@ section:nth-of-type(even) {
 .card-content li {
   color: #fff; }
 
+.checkbox, .radio {
+  color: #fff; }
+  .checkbox:hover, .radio:hover {
+    color: #EEE8A9 !important; }
+
 footer a {
   color: #00A6DE; }
   footer a:hover {
-    color: #363636; }
+    color: #EEE8A9; }
 
 footer strong {
   color: #4A4A4A; }
@@ -6431,7 +6436,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .mr-5 {
   margin-right: 1.5rem !important; }
 
-.mb-5 {
+.mb-5, form {
   margin-bottom: 1.5rem !important; }
 
 .ml-5 {

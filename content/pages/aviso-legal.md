@@ -1,6 +1,6 @@
 title: Aviso legal 
 date: 2020-10-26 20:00
-modified: 2020-10-26 20:00
+modified: 2020-10-27 12:00
 slug: aviso-legal 
 
 ## Identidad del responsable
@@ -61,6 +61,8 @@ Se puede consultar la página [créditos](/creditos) para obtener información s
 Coruja Digital publica el contenido de este sitio web bajo licencia libre [**Creative Commons Atribuir-CompartirIgual**](https://creativecommons.org/licenses/by-sa/4.0/deed.es).
 
 Los diseños, logotipos, gráficos o textos ajenos a Coruja Digital y que aparezcan en este sitio web pertenecen a sus respectivos propiertarios o creadores, quienes también son los responsables de cualquier controversia que pudiesen suscitar. En cualquier caso Coruja Digital contará con autorización expresa y previa para poder utilizar dichos recursos o estos estarán publicados bajo una licencia libre.
+
+Los logotipos de clientes que pertenecen a estos y se exponen en este sitio web, ya sea en la página de [clientes](/clientes) o en cualquier otra, tras la autorización de sus propietarios.
 
 El usuario puede realizar cualquier tipo de observación en relación a posibles incumplimiento de los derechos de autor, de propiedad intelectual o industrial, así como sobre cualquier otro aspecto de los contenidos de este sitio web, por medio de la [página de contacto](/contactar).
 

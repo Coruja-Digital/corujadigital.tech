@@ -52,6 +52,11 @@ $navbar-item-hover-background-color: $warning;
 	outline: 0px;
 }
 
+// html
+html {
+	scroll-behavior: smooth;
+}
+
 // Sections
 section {
 	&:nth-of-type(odd) {
@@ -128,6 +133,20 @@ footer {
 	}
 }
 
+// Scroll-up
+#scroll-up {
+	position: fixed;
+	bottom: 10%;
+	right: 10%;
+	z-index: 99;
+	border-radius: 100%;
+
+	.icon {
+		height: 4rem;
+		width: 4rem;
+	}
+}
+
 // Carousel
 .slider-container {
 	align-items: center;
@@ -143,6 +162,7 @@ footer {
 	@extend .mb-4;
 }
 
+// Matomo
 #matomo-opt-out {
 	width: 100%;
 	border: 0px;

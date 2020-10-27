@@ -41,8 +41,24 @@ También puedes encontrarnos en [Twitter](https://twitter.com/coruja_dig), [Inst
   </div>
   <div class="field">
     <div class="control">
+      <label class="checkbox">
+        <input type="checkbox" required>
+          Estoy de acuerdo con la finalidad de este formulario de contacto expuesta en el apartado de <em>información básica sobre protección de datos</em> (debajo del botón "Enviar").
+      </label>
+    </div>
+  </div>
+  <div class="field">
+    <div class="control">
       <button class="button" type="submit">Enviar</button>
     </div>
   </div>
 </form>
 
+**Información básica sobre protección de datos**.
+
+  - **Responsable**: Coruja Digital.
+  - **Finalidad de la recogida y tratamiento de los datos personales**: gestionar la solicitud que realizas en este formulario de contacto.
+  - **Legitimación**: consentimiento por medio de la casilla de verificación del formulario, con la que se acepta la finalidad expuesta.
+  - **Destinatarios**: Coruja Digital (ningún dato del mensaje se cede a terceros).
+  - **Derechos**: podrás ejercer tus derechos de acceso, rectificación, cancelación, oposición, portabilidad o al olvido por medio de este mismo formulario, así como el derecho a presentar una reclamación ante una autoridad de control.
+  - **Información adicional**: en la [política de privacidad](/politica-privacidad) de Coruja Digital encontrarás información adicional sobre la recopilación y el uso de su información personal.

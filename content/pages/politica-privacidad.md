@@ -56,7 +56,11 @@ Para proteger al usuario Matomo ha sido configurado de la siguiente manera:
 
 <iframe id="matomo-opt-out" src="https://stats.corujadigital.tech/index.php?module=CoreAdminHome&action=optOut&language=es&fontColor=ffffff&fontSize=1em&fontFamily=BlinkMacSystemFont%2C%20-apple-system%2C%20%22Segoe%20UI%22%2C%20%22Roboto%22%2C%20%22Oxygen%22%2C%20%22Ubuntu%22%2C%20%22Cantarell%22%2C%20%22Fira%20Sans%22%2C%20%22Droid%20Sans%22%2C%20%22Helvetica%20Neue%22%2C%20%22Helvetica%22%2C%20%22Arial%22%2C%20sans-serif"></iframe>
 
-En cualquier caso, si el usuario ha rechazado el uso de cookies en este sitio web en los avisos de consentimiento, no será rastreado por Matomo.
+Si arriba (debajo del encabezado) aparece "The tracking opt-out feature requires cookies to be enabled" (en rojo) en lugar de un texto que te pregunta si quieres optar o no ser rastreado por Matomo, no te preocupes. Esto significa que tu navegador o alguna herramienta que bloquea rastreadores no permite que Matomo establezca su cookie.
+
+Para simplificar: si tu navegador está configurado con la opción **Do Not Track**, utilizas los escudos de protección de Brave o herramientas como uBlock Origin, **no se establecerá ninguna cookie**.
+
+Recomendamos al usuario utilizar una o varias de las opciones mencionadas en el párrafo anterior, no solo para este sitio web sino para la navegación por Internet en general. Le protegerán no solo de cookies como la de Matomo, sino también de otras que pueden ser más intrusivas.
 
 ## ¿Dónde se guardan los datos personales?
 

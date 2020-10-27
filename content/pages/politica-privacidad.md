@@ -44,6 +44,20 @@ En el sitio web de Coruja Digital se recogen los siguientes tipos de datos:
 
 Este sitio web tiene blog, pero no aporta ningún sistema de comentarios, razón por la que no especifica este tipo de extracción. Si en algún momento se implementase un sistema de comentarios se incluiría en esta política de privacidad los datos que se recopilan y con qué finalidad. 
 
+## Datos analíticos: Matomo
+
+Para proteger al usuario Matomo ha sido configurado de la siguiente manera:
+
+  - Hace anónimas las IP de los visitantes así como el ID de pedido.
+  - Acepta y reconoce la directiva [**Do Not Track**](https://www.eff.org/issues/do-not-track), que cualquier usuario puede configurar en su propio navegador.
+  - El usuario puede **optar a no ser rastreado por Matomo**.
+
+## Matomo: optar a no ser rastreado 
+
+<iframe id="matomo-opt-out" src="https://stats.corujadigital.tech/index.php?module=CoreAdminHome&action=optOut&language=es&fontColor=ffffff&fontSize=1em&fontFamily=BlinkMacSystemFont%2C%20-apple-system%2C%20%22Segoe%20UI%22%2C%20%22Roboto%22%2C%20%22Oxygen%22%2C%20%22Ubuntu%22%2C%20%22Cantarell%22%2C%20%22Fira%20Sans%22%2C%20%22Droid%20Sans%22%2C%20%22Helvetica%20Neue%22%2C%20%22Helvetica%22%2C%20%22Arial%22%2C%20sans-serif"></iframe>
+
+En cualquier caso, si el usuario ha rechazado el uso de cookies en este sitio web en los avisos de consentimiento, no será rastreado por Matomo.
+
 ## ¿Dónde se guardan los datos personales?
 
 Dada la naturaleza digital de esta actividad, todos los datos personales de este sitio web se almacenan en el alojamiento web proporcionado por los servidores de Frantech, en los que también se guarda los correos electrónicos recibidos y enviados por Coruja Digital.

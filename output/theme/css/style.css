@@ -39,6 +39,10 @@ footer strong {
   .slider-container figure {
     max-width: 580px; }
 
+#matomo-opt-out {
+  width: 100%;
+  border: 0px; }
+
 /*! bulma.io v0.9.1 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 @keyframes spinAround {

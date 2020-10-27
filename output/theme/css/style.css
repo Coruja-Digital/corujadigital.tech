@@ -4,6 +4,9 @@
 :focus {
   outline: 0px; }
 
+html {
+  scroll-behavior: smooth; }
+
 section:nth-of-type(odd) {
   background-color: #0058AD; }
   section:nth-of-type(odd) h2, section:nth-of-type(odd) p {
@@ -38,6 +41,16 @@ footer a {
 
 footer strong {
   color: #4A4A4A; }
+
+#scroll-up {
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  z-index: 99;
+  border-radius: 100%; }
+  #scroll-up .icon {
+    height: 4rem;
+    width: 4rem; }
 
 .slider-container {
   align-items: center; }

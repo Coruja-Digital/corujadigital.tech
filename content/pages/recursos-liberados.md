@@ -1,6 +1,7 @@
 title: Recursos liberados
 date: 2020-09-14 19:30
 modified: 2020-09-14 19:30
+description: Presentaciones, software y otros recursos desarrollados por Coruja Digital y que se han liberado al público general bajo licencia libre o al dominio público.
 slug: recursos-liberados
 
 Esta página recopila los diferentes recursos que Coruja Digital ha elaborado y ha decidido liberar.

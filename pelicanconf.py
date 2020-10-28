@@ -109,7 +109,7 @@ NAVBARMAIN = (("Inicio", "https://corujadigital.tech"),
               ("Recursos liberados", "/recursos-liberados"),
               ("Contactar", "/contactar"))
 
-PLUGINS = ["pelican.plugins.sitemap"]
+PLUGINS = ["pelican.plugins.seo", "pelican.plugins.sitemap"]
 
 SITEMAP = {
     "format": "xml",
@@ -124,3 +124,8 @@ SITEMAP = {
         "indexes": "daily"
     }
 }
+
+SEO_REPORT = True
+SEO_ENHANCER = False
+
+LOGO = "https://corujadigital.tech/theme/logo_coruja_digital.png"

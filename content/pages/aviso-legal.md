@@ -1,6 +1,7 @@
 title: Aviso legal 
 date: 2020-10-26 20:00
 modified: 2020-10-27 12:00
+description: Aviso legal de Coruja Digital en el que se expone la identidad del responsable, la finalidad del sitio web y otros aspectos relevantes para el usuario.
 slug: aviso-legal 
 
 ## Identidad del responsable
@@ -9,7 +10,7 @@ La actividad de este sitio web se articula de la siguiente manera:
 
   - **Responsable**: Iván Hernández Cazorla.
   - **Nombre comercial**: Coruja Digital.
-  - **Contacto**: disponible en la [página de contacto](/contactar)
+  - **Contacto**: disponible en la [página de contacto](https://corujadigital.tech/contactar)
   - **Actividad social**: desarrollo de herramientas, proyectos y servicios en el ámbito del patrimonio cultural, las humanidades y la ciencia abierta.
 
 ## Marco legal aplicable
@@ -42,11 +43,11 @@ El sitio web del prestado puede utilizar cookies (pequeños archivos que compila
 
 Las cookies en el sitio web tienen, en todo caso, carácter temporal con la única finalidad de proporcionar datos estadísticos. Desaparecen al terminar la sesión del usuario. **Nunca se utilizarán cookies para recoger información de carácter personal**.
 
-Si en algún caso se detectase una cookie diferente de las mencionadas en la *Política de privacidad* o las descritas aquí, el usuario puede entrar en contacto con el responsable del sitio web por medio de la [página de contacto](/contactar). Asímismo Coruja Digital se compromete a la retirada inmediata de cualquier contenido que pudiera contravenir la legislación nacional, comunitaria o internacional, la moral o el orden público y a ponerlo en conocimiento de las autoridades competentes.
+Si en algún caso se detectase una cookie diferente de las mencionadas en la *Política de privacidad* o las descritas aquí, el usuario puede entrar en contacto con el responsable del sitio web por medio de la [página de contacto](https://corujadigital.tech/contactar). Asímismo Coruja Digital se compromete a la retirada inmediata de cualquier contenido que pudiera contravenir la legislación nacional, comunitaria o internacional, la moral o el orden público y a ponerlo en conocimiento de las autoridades competentes.
 
 Finalmente, señalar que en este sitio web hay enlaces a contenidos generados por terceros. Coruja Digital no puede controlar ese contenido, por lo que no asume ningún tipo de responsabilidad con respecto a dichos contenidos.
 
-El usuario puede encontrar más información sobre las cookies utilizadas en la [**Política de privacidad**](/politica-privacidad) de este sitio web.
+El usuario puede encontrar más información sobre las cookies utilizadas en la [**Política de privacidad**](https://corujadigital.tech/politica-privacidad) de este sitio web.
 
 ## Protección de datos personales
 
@@ -56,15 +57,15 @@ Coruja Digital cumple con la normativa europea y española de protección de dat
 
 El sitio web Coruja Digital (https://corujadigital.tech), así como su título, eslogan, descripción, código de fuente, edición, compilación y demás elementos necesarios para su fucnionamientos, como el diseño, los logitpos, texto o gráficos son propiedad de Coruja Digital o se dispone de licencia o autorización expresa por parte de los autores.
 
-Se puede consultar la página [créditos](/creditos) para obtener información sobre los recursos utilizados a nivel general en este sitio web. Para recursos concretos, utilizados en páginas o entradas de blog, se podrá consultar en la misma página el crédito a la obra. En el caso de ausencia de un aviso de licencia o de uso expreso se da por sentado que el recurso es propiedad de Coruja Digital.
+Se puede consultar la página [créditos](https://corujadigital.tech/creditos) para obtener información sobre los recursos utilizados a nivel general en este sitio web. Para recursos concretos, utilizados en páginas o entradas de blog, se podrá consultar en la misma página el crédito a la obra. En el caso de ausencia de un aviso de licencia o de uso expreso se da por sentado que el recurso es propiedad de Coruja Digital.
 
 Coruja Digital publica el contenido de este sitio web bajo licencia libre [**Creative Commons Atribuir-CompartirIgual**](https://creativecommons.org/licenses/by-sa/4.0/deed.es).
 
 Los diseños, logotipos, gráficos o textos ajenos a Coruja Digital y que aparezcan en este sitio web pertenecen a sus respectivos propiertarios o creadores, quienes también son los responsables de cualquier controversia que pudiesen suscitar. En cualquier caso Coruja Digital contará con autorización expresa y previa para poder utilizar dichos recursos o estos estarán publicados bajo una licencia libre.
 
-Los logotipos de clientes que pertenecen a estos y se exponen en este sitio web, ya sea en la página de [clientes](/clientes) o en cualquier otra, tras la autorización de sus propietarios.
+Los logotipos de clientes que pertenecen a estos y se exponen en este sitio web, ya sea en la página de [clientes](https://corujadigital.tech/clientes) o en cualquier otra, tras la autorización de sus propietarios.
 
-El usuario puede realizar cualquier tipo de observación en relación a posibles incumplimiento de los derechos de autor, de propiedad intelectual o industrial, así como sobre cualquier otro aspecto de los contenidos de este sitio web, por medio de la [página de contacto](/contactar).
+El usuario puede realizar cualquier tipo de observación en relación a posibles incumplimiento de los derechos de autor, de propiedad intelectual o industrial, así como sobre cualquier otro aspecto de los contenidos de este sitio web, por medio de la [página de contacto](https://corujadigital.tech/contactar).
 
 ## Ley aplicable y jurisdicción
 

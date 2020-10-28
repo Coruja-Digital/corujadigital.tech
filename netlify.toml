@@ -1,0 +1,11 @@
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+
+  [plugins.inputs]
+    baseUrl = https://corujadigital.tech"
+    sitemapPath = "/sitemap.xml"
+    providers = [
+      "google",
+      "bing",
+      "yandex"
+    ]    

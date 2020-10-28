@@ -1,6 +1,7 @@
 title: Mensaje enviado
 date: 2020-06-08 17:05
 modified: 2020-06-08 17:15
+status: hidden
 css_class: is-warning
 slug: contactar-exito
 

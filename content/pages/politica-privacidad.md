@@ -1,6 +1,8 @@
 title: Política de privacidad 
 date: 2020-10-26 20:00
 modified: 2020-10-26 20:00
+description: Esta es la política de privacidad de Coruja Digital, en la que se expone información sobre el tratamiento de los datos personales y los datos que se recopilan.
+
 slug: politica-privacidad
 
 ## Identidad del responsable
@@ -9,7 +11,7 @@ La actividad de este sitio web se articula de la siguiente manera:
 
   - **Responsable**: Iván Hernández Cazorla.
   - **Nombre comercial**: Coruja Digital.
-  - **Contacto**: disponible en la [página de contacto](/contactar)
+  - **Contacto**: disponible en la [página de contacto](https://corujadigital.tech/contactar)
   - **Actividad social**: desarrollo de herramientas, proyectos y servicios en el ámbito del patrimonio cultural, las humanidades y la ciencia abierta.
 
 ## Marco legal aplicable
@@ -37,7 +39,7 @@ En el artículo 3 de la LOPD se definen los datos personales como "cualquier inf
 En el sitio web de Coruja Digital se recogen los siguientes tipos de datos:
 
   - **Analíticos**. Este sitio web utiliza [Matomo](https://matomo.org) para analizar el tráfico, lo que permite a Coruja Digital mejorar la experiencia del usuario.
-  - **Informativos**. Se recopila información sobre el usuario que contacta con Coruja Digital. Los datos enviados por correo electrónico, es decir, sin usar el formulario de contacto pueden ser variados y se ampararán bajo la misma protección de datos descrita en esta política. En cuanto al [formulario de contacto](/contactar) que proporciona Coruja Digital, los datos que se recopilan son:
+  - **Informativos**. Se recopila información sobre el usuario que contacta con Coruja Digital. Los datos enviados por correo electrónico, es decir, sin usar el formulario de contacto pueden ser variados y se ampararán bajo la misma protección de datos descrita en esta política. En cuanto al [formulario de contacto](https://corujadigital.tech/contactar) que proporciona Coruja Digital, los datos que se recopilan son:
     - **Nombre**. Para poder dirigirnos al usuario que contacta con Coruja Digital.
     - **Correo electrónico**. Para poder responder al usuario.
     - **Mensaje**. Para informarnos de la razón por la que el usuario contacta con Coruja Digital.
@@ -82,7 +84,7 @@ El intercambio de información realizado entre el usuario y el servidor se reali
 
 Según el RGPD y la LOPD, el **usuario** tiene derecho a ejercitar, en cualquier momento, el **acceso** a sus datos, así como su **rectificación**, **cancelación** y **oposición** ante Coruja Digital.
 
-Para ejecutar este derecho el usuario puede [contactar](/contactar) con Coruja Digital por correo electrónico o con el formulario de contacto. Se debe especificar en el cuerpo del mensaje que derecho quiere ejercitar o si lo que desea es la eliminación de sus datos. En ningún momento se instará al usuario a no hacerlo o se le preguntará si está seguro de su decisión, pero este deberá identificarse para poder facilitar la eliminación de los datos almacenados.
+Para ejecutar este derecho el usuario puede [contactar](https://corujadigital.tech/contactar) con Coruja Digital por correo electrónico o con el formulario de contacto. Se debe especificar en el cuerpo del mensaje que derecho quiere ejercitar o si lo que desea es la eliminación de sus datos. En ningún momento se instará al usuario a no hacerlo o se le preguntará si está seguro de su decisión, pero este deberá identificarse para poder facilitar la eliminación de los datos almacenados.
 
 Coruja Digital se compromete a ejecutar todos estos derechos dentro del **plazo legal máximo establecido de 10 días hábiles**, si bien siempre se intentará atender estas solicitudes lo antes posible.
 

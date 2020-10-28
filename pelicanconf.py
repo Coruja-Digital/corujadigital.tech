@@ -108,3 +108,19 @@ NAVBARMAIN = (("Inicio", "https://corujadigital.tech"),
               ("Blog", "/blog"),
               ("Recursos liberados", "/recursos-liberados"),
               ("Contactar", "/contactar"))
+
+PLUGINS = ["pelican.plugins.sitemap"]
+
+SITEMAP = {
+    "format": "xml",
+    "priorities": {
+        "article": 0.8,
+        "pages": 0.8,
+        "indexes": 0.5,
+    },
+    "changefreqs": {
+        "articles": "monthly",
+        "pages": "monthly",
+        "indexes": "daily"
+    }
+}

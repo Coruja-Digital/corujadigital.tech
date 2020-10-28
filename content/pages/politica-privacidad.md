@@ -2,7 +2,6 @@ title: Política de privacidad
 date: 2020-10-26 20:00
 modified: 2020-10-26 20:00
 description: Esta es la política de privacidad de Coruja Digital, en la que se expone información sobre el tratamiento de los datos personales y los datos que se recopilan.
-
 slug: politica-privacidad
 
 ## Identidad del responsable

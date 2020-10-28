@@ -1,9 +1,10 @@
 title: Clientes 
 date: 2020-04-17 02:21
-modified: 2020-10-21 21:30
+modified: 2020-10-28 22:00
+description: Lista de clientes que han confiado en los servicios de Coruja Digital. En esta lista se incluyen los servicios o proyectos realizados para los mismos.
 slug: clientes
 
-Algunos de los clientes que han contado con los [servicios](/servicios.html) de Coruja Digital han sido:
+Algunos de los clientes que han contado con los [servicios](https://corujadigital.tech/servicios.html) de Coruja Digital han sido:
 
 ## Asociación de Bibliotecarios/as y Documentalistas de Canarias
 
@@ -60,3 +61,7 @@ Algunos de los clientes que han contado con los [servicios](/servicios.html) de 
 </ul>
 </div>
 </div>
+
+<hr>
+
+¿Te gustaría contar con nosotros para algún proyecto? Puedes contactar con Coruja Digital por medio de nuestro [formulario de contacto](https://corujadigital.tech/contactar).

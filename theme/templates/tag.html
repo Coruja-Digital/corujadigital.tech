@@ -3,13 +3,21 @@
 {% block title %}Entradas etiquetadas como {{ tag|striptags }} - {{ SITENAME }}{%endblock%}
 
 {% block content %}
-  <section class="hero is-info has-text-centered">
+  <div class="hero is-info has-text-centered">
 		<div class="hero-body">
 			<div class="container">
 				<h1 class="title">Entradas del blog etiquetadas como <span class="tag is-large">{{ tag }}</span></h1>
+				<nav class="breadcrumb has-arrow-separator is-centered" aria-label="breadcrumbs">
+					<ul>
+						<li><a href="{{ SITEURL }}"><span class="icon is-small"><i class="fas fa-home" aria-hidden="true"></i></span><span>Coruja Digital</span></a></li>
+						<li><a href="{{ SITEURL }}/blog"><span class="icon is-small"><i class="fas fa-blog" aria-hidden="true"></i></span>Blog</a></li>
+						<li class="is-active"><a href="#" aria-current="page"><span class="icon"><i class="fas fa-tag" aria-hidden="true"></i></span>{{ tag }}</a></li>
+					</ul>
+				</nav>
 			</div>
 		</div>
-	</section>
+	</div>
+
   {% for article in dates %}
 		<section class="section">
 			<div class="columns is-centered">

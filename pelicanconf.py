@@ -15,6 +15,8 @@ PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
 TAG_SAVE_AS = 'blog/tag/{slug}.html'
 TAG_URL = 'blog/tag/{slug}'
+CATEGORY_SAVE_AS = 'blog/cat/{slug}.html'
+CATEGORY_URL = 'blog/cat/{slug}'
 STATIC_PATHS = ["documentos"]
 TEMPLATE_PAGES = {'blog.html': 'blog.html'}
 

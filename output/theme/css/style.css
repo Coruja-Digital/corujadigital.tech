@@ -22,15 +22,27 @@ section:nth-of-type(even) {
 .card-footer-item {
   color: #fff;
   font-weight: bold; }
-  .card-footer-item .tag:hover {
-    color: #00A6DE;
-    text-decoration: none; }
 
 .card-content a {
   color: #e1d665; }
 
 .card-content li {
   color: #fff; }
+
+.card-content figcaption {
+  color: #fff; }
+
+.tag {
+  font-weight: bold; }
+  .tag:hover {
+    color: #00A6DE;
+    text-decoration: none !important; }
+
+.breadcrumb li.is-active a {
+  color: #e1d665 !important; }
+
+.breadcrumb li.is-active a {
+  color: #e1d665 !important; }
 
 .checkbox, .radio {
   color: #fff; }

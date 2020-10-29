@@ -1,8 +1,14 @@
+[[redirects]]
+  from = "/recursos_liberados*"
+  to = "/recursos-liberados"
+  status = 301
+  force = true
+  
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"
 
   [plugins.inputs]
-    baseUrl = https://corujadigital.tech"
+    baseUrl = "https://corujadigital.tech"
     sitemapPath = "/sitemap.xml"
     providers = [
       "google",

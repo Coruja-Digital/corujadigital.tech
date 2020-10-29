@@ -5,14 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://corujadigital.tech/</loc>
-<lastmod>2020-10-29T20:03:04-00:00</lastmod>
+<lastmod>2020-10-29T20:12:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://corujadigital.tech/blog.html</loc>
-<lastmod>2020-10-29T20:03:04-00:00</lastmod>
+<lastmod>2020-10-29T20:12:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -81,29 +81,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://corujadigital.tech/blog/test-post</loc>
-<lastmod>2019-09-21T00:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://corujadigital.tech/blog/test-post2</loc>
-<lastmod>2019-09-21T00:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://corujadigital.tech/blog/cat/corujadigitaltech</loc>
 <lastmod>2020-10-29T00:00:00-00:01</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://corujadigital.tech/blog/cat/test</loc>
-<lastmod>2019-09-21T00:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -139,20 +118,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://corujadigital.tech/blog/tag/seo</loc>
 <lastmod>2020-10-29T00:00:00-00:01</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://corujadigital.tech/blog/tag/test1</loc>
-<lastmod>2019-09-21T00:00:00-00:01</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://corujadigital.tech/blog/tag/test-2</loc>
-<lastmod>2019-09-21T00:00:00-00:01</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

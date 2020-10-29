@@ -87,13 +87,6 @@ $card-footer-color: $white;
 .card-footer-item {
 	color: $white;
 	font-weight: bold;
-
-	.tag {
-		&:hover {
-			color: $info;
-			text-decoration: none;
-		}
-	}
 }
 
 .card-content {
@@ -103,14 +96,38 @@ $card-footer-color: $white;
 	li {
 		color: $white;
 	}
+	figcaption {
+		color: $white;
+	}
 }
 
 // Tags
 $tag-background-color: $warning;
 $tag-color: $secondary;
 
+.tag {
+	font-weight: bold;
+	&:hover {
+		color: $info;
+		text-decoration: none !important;
+	}
+}
+
 // Buttons
 $button-hover-color: $info;
+
+// Breadcrumb
+.breadcrumb {
+	li {
+		&.is-active a {
+			color: $sand-darker !important;
+		}
+	}
+}
+
+.breadcrumb li.is-active a {
+	color: $sand-darker !important;
+}
 
 // Forms
 $label-color: $sand-darker;

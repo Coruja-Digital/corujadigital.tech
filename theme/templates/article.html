@@ -13,6 +13,21 @@
 {% endblock %}
 
 {% block content %}
+  <div class="hero is-info has-text-centered">
+		<div class="hero-body">
+			<div class="container">
+				<h1 class="title">Últimas entradas en el blog</h1>
+				<nav class="breadcrumb has-arrow-separator is-centered" aria-label="breadcrumbs">
+					<ul>
+						<li><a href="{{ SITEURL }}"><span class="icon is-small"><i class="fas fa-home" aria-hidden="true"></i></span><span>Coruja Digital</span></a></li>
+						<li><a href="{{ SITEURL }}/blog"><span class="icon is-small"><i class="fas fa-blog" aria-hidden="true"></i></span>Blog</a></li>
+						<li><a href="{{ SITEURL }}/blog/cat/{{ article.category.slug }}"><span class="icon is-small"><i class="fas fa-folder" aria-hidden="true"></i></span>{{ article.category }}</a></li>
+						<li class="is-active"><a href="#" aria-current="page">{{ article.title }}</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
 	<section class="section">
 		<div class="columns is-centered is-vcentered">
 			<div class="column is-three-fifths">

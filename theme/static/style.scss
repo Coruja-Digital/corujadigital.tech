@@ -87,6 +87,13 @@ $card-footer-color: $white;
 .card-footer-item {
 	color: $white;
 	font-weight: bold;
+
+	.tag {
+		&:hover {
+			color: $info;
+			text-decoration: none;
+		}
+	}
 }
 
 .card-content {

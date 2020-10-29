@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+	<section class="section">
+		<div class="columns is-centered">
+			<div class="column is-half">
+				<div class="card">
+					<header class="card-header pt-4 is-shadowless has-text-centered">
+						<div class="column">
+							<h1 class="card-header-title title">
+								¡Error 404!
+							</h1>
+							<h2 class="subtitle">
+								No hemos encontrado lo que estás buscando.
+							</h2>
+						</div>
+						<div class="column is-narrow has-text-right mt-5">
+							<p>
+								Prueba a navegar por el menú superior del sitio web y si tienes alguna duda o sigues sin encontrar lo que buscas, [¡no dudes en contactar con nosotros!](/contactar).
+							</p>
+						</div>
+					</header>
+					<div class="card-content">
+						<div class="content">
+							<p class="subtitle">
+								{{ article.summary }}
+							</p>
+						</div>
+					</div>
+					<footer class="card-footer">
+						<a href="/blog/{{ article.slug }}" class="card-footer-item">Leer más</a>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

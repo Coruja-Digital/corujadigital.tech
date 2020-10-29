@@ -95,7 +95,7 @@ CARD_FOUR = {"title": "Quiénes somos",
              "Somos un equipo multidisciplinar que ofrece diferentes servicios relacionados con las tecnologías de la información, la gestión, la comunicación y la difusión del patrimonio cultural, las humanidades digitales y la ciencia abierta."}
 
 CARD_FIVE = {"title": "Recursos liberados",
-             "slug": "recursos_liberados",
+             "slug": "recursos-liberados",
              "css_class": "is-link",
              "more": "Accede a nuestros recursos",
              "content":

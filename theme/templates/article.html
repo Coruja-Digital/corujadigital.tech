@@ -33,7 +33,7 @@
                 <time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
               </p>
 							<p>
-							  <span class="tag">{{ article.category }}</span>
+								<a class="tag" href="/blog/cat/{{ article.category.slug }}">{{ article.category }}</a>
 							</p>
             </div>
 					</header>

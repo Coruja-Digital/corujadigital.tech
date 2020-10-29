@@ -16,9 +16,11 @@ PAGE_SAVE_AS = '{slug}.html'
 STATIC_PATHS = ["documentos"]
 TEMPLATE_PAGES = {'blog.html': 'blog.html'}
 
-# Don't generate authors templates
+# Don't generate specific templates
 AUTHOR_SAVE_AS = ''
 AUTHORS_SAVE_AS = ''
+TAGS_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ''
 
 THEME = "theme"
 

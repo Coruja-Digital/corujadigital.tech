@@ -13,6 +13,8 @@ ARTICLE_URL = 'blog/{slug}'
 PATH = 'content'
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
+TAG_SAVE_AS = 'blog/tag/{slug}.html'
+TAG_URL = 'blog/tag/{slug}'
 STATIC_PATHS = ["documentos"]
 TEMPLATE_PAGES = {'blog.html': 'blog.html'}
 

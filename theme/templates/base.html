@@ -109,8 +109,9 @@ rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
 				</div>
 				<div id="navbarMain" class="navbar-menu has-text-centered-mobile">
 					<div class="navbar-start">
+						  <a class="navbar-item" href="{{ SITEURL }}">Inicio</a>
 						{% for item, link in NAVBARMAIN %}
-							<a class="navbar-item" href="{{ link }}">
+							<a class="navbar-item" href="{{ SITEURL }}/{{ link }}">
 								{{ item }}
 						  </a>
 						{% endfor %}

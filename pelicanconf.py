@@ -111,13 +111,13 @@ FOOTER = ("<a href='/creditos'>Créditos</a> del software y elementos gráficos 
           "<a href='/aviso-legal'>Aviso legal</a><br>"
           "<a href='/politica-privacidad'>Política de privacidad</a>")
 
-NAVBARMAIN = (("Inicio", "https://corujadigital.tech"),
-              ("Quiénes somos", "/acerca-de"),
-              ("Servicios", "/servicios"),
-              ("Clientes", "/clientes"),
-              ("Blog", "/blog"),
-              ("Recursos liberados", "/recursos-liberados"),
-              ("Contactar", "/contactar"))
+NAVBARMAIN = (("Quiénes somos", "acerca-de"),
+              ("Servicios", "servicios"),
+              ("Clientes", "clientes"),
+              ("Blog", "blog"),
+              ("Recursos liberados", "recursos-liberados"),
+              ("Contactar", "contactar"))
+
 
 PLUGINS = ["pelican.plugins.seo", "pelican.plugins.sitemap"]
 

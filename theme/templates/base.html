@@ -109,10 +109,10 @@ rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
 				</div>
 				<div id="navbarMain" class="navbar-menu has-text-centered-mobile">
 					<div class="navbar-start">
-						  <a class="navbar-item" href="{{ SITEURL }}">Inicio</a>
-						{% for item, link in NAVBARMAIN %}
+						<a class="navbar-item" href="{{ SITEURL }}"><span class="icon"><i class="fas fa-home" aria-hidden="true"></i></span><span>Inicio</span></a>
+						{% for item, link, icon in NAVBARMAIN %}
 							<a class="navbar-item" href="{{ SITEURL }}/{{ link }}">
-								{{ item }}
+								<span class="icon"><i class="{{ icon }}" aria-hidden="true"></i></span><span>{{ item }}</span>
 						  </a>
 						{% endfor %}
 					</div>
@@ -186,10 +186,11 @@ rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
 							<div class="column has-text-right has-text-centered-mobile">
 								<p class="has-text-weight-semibold">Navegación</p>
 								<ul>
-									{% for item, link in NAVBARMAIN %}
-										<li><a href="{{ link }}">
+									<li><a href="{{ SITEURL }}"><span>Inicio</span></a><span class="icon"><i class="fas fa-home"></i></span></li>
+									{% for item, link, icon in NAVBARMAIN %}
+										<li><span><a href="{{ link }}">
 											{{ item }}
-											</a></li>
+												</a></span><span class="icon"><i class="{{ icon }}" aria-hidden="true"></i></span></li>
 									{% endfor %}
 								</ul>
 							</div>

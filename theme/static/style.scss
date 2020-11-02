@@ -40,6 +40,12 @@ $navbar-background-color: $info;
 $navbar-item-color: $primary;
 $navbar-item-hover-color: $secondary;
 $navbar-item-hover-background-color: $warning;
+$navbar-item-img-max-height: 2.5rem;
+
+.navbar-item {
+	padding-left: 1rem !important;
+	padding-right: 1rem !important;
+}
 
 // Just used with the navbar, but created in case it wants to be used
 // in other items

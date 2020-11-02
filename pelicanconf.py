@@ -111,12 +111,12 @@ FOOTER = ("<a href='/creditos'>Créditos</a> del software y elementos gráficos 
           "<a href='/aviso-legal'>Aviso legal</a><br>"
           "<a href='/politica-privacidad'>Política de privacidad</a>")
 
-NAVBARMAIN = (("Quiénes somos", "acerca-de"),
-              ("Servicios", "servicios"),
-              ("Clientes", "clientes"),
-              ("Blog", "blog"),
-              ("Recursos liberados", "recursos-liberados"),
-              ("Contactar", "contactar"))
+NAVBARMAIN = (("Quiénes somos", "acerca-de", "fas fa-users"),
+              ("Servicios", "servicios", "fas fa-users"),
+              ("Clientes", "clientes", "fas fa-laptop"),
+              ("Blog", "blog", "fas fa-blog"),
+              ("Recursos liberados", "recursos-liberados", "fas fa-folder"),
+              ("Contactar", "contactar", "fas fa-at"))
 
 
 PLUGINS = ["pelican.plugins.seo", "pelican.plugins.sitemap"]

@@ -136,6 +136,6 @@ SITEMAP = {
 }
 
 SEO_REPORT = True
-SEO_ENHANCER = False
+SEO_ENHANCER = True
 
 LOGO = "https://corujadigital.tech/theme/logo_coruja_digital.png"

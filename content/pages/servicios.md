@@ -1,12 +1,26 @@
-title: Servicios
+title: Servicios y productos para el patrimonio y la ciencia abierta
 date: 2020-04-17 02:21
-modified: 2020-06-08 19:00
+modified: 2020-11-5 07:00
 description: Catálogo de los servicios que proporciona Coruja Digital y proyectos posibles. Se informa sobre algunas de las herramientas y servicios que se utilizan.
 slug: servicios
 
 En Coruja Digital estamos preparados para abordar proyectos de diversa índole gracias a [nuestro equipo](https://corujadigital.tech/acerca-de.html) multidisciplinar.
 
-Entre los servicios que prestamos se encuentran:
+## Productos principales
+
+Estos son algunos de los productos que ofrecemos bajo encargo y planificación personalizada. Son principalmente ideas extrapolables a instituciones interesadas, ya que en la mayoría de ocasiones habrá que adaptarlos a las necesidades de cada cliente.
+
+{% from "producto.html" import producto %}
+{{ producto("theme/scholia_wikidata_captura_pantalla.png",
+            "Ciencia abierta en Wikidata",
+            "/ciencia-abierta-wikidata",
+            "Wikidata es una base de conocimiento libre con infinidad de posibilidades. Una de ellas es la capacidad que tiene para funcionar como un conjunto de datos que contribuye a la ciencia abierta. Incluso existen proyectos que promueven este tipo de usos, como WikiCite.",
+            "Si tienes un conjunto de datos que te gustaría liberar y publicar en Wikidata, o te interesa introducir los datos de un conjunto de datos ya liberado, en Coruja Digital podemos ayudarte.")
+}}
+
+## Servicios que prestamos
+
+Además de los productos expuestos anteriormente, prestamos los siguientes servicios:
 
   - Transferencia de conocimiento desde soportes tradicionales a soportes digitales. No solo en lo relativo a la digitalización de documentos, sino también al replanteamiento y actualización de proyectos anteriores al periodo tecnológico actual.
   - Gestión de documentación en soportes físicos y digitales. La organización de los archivos es una tarea esencial que implica un desarrollo holístico.
@@ -38,4 +52,4 @@ No solo utilizamos el software que ya existe. En Coruja Digital desarrollamos nu
 
 Si en algún proyecto surge esta necesidad, estamos preparados para evaluar la viabilidad del desarrollo de una herramienta específica para cada caso o la adaptación de una ya existente. Si bien siempre intentaremos que las herramientas que se desarrollen en el marco del proyecto de un cliente se liberen bajo una licencia libre, como una [GPL o LGPL](https://www.gnu.org/licenses/licenses.es.html), la decisión final será del cliente.
 
-Principalmente controlamos HTML, CSS y JavaScript, así como también Python, un lenguaje de programación esencial para el desarrollo de programas básicos y la manipulación y visualización de datos. Sin embargo, en estos momentos nos encontramos en plena formación, en la que estamos adquiriendo nociones sobre Elixir, un lenguaje de programación que permitiría el desarrollo de proyectos y herramientas que requieran altos niveles de concurrencia (ejecución de múltiples procesos). 
+Principalmente controlamos HTML, CSS y JavaScript, así como también PHP y Python, un lenguaje de programación esencial para el desarrollo de programas básicos y la manipulación y visualización de datos. Sin embargo, en estos momentos nos encontramos en plena formación, en la que estamos adquiriendo nociones sobre Elixir, un lenguaje de programación que permitiría el desarrollo de proyectos y herramientas que requieran altos niveles de concurrencia (ejecución de múltiples procesos). 

@@ -1,0 +1,22 @@
+{% macro producto(imagen, producto, slug, descripcion_p1, descripcion_p2) -%}
+<div class="columns is-multiline">
+<div class="column is-two-quarters">
+	<h3><a href="{{ slug }}">{{ producto }}</a></h3>
+	<p>{{ descripcion_p1 }}</p>
+	{% if descripcion_p2 %}
+		<p>{{ descripcion_p2 }}</p>
+	{% endif %}
+</div>
+<div class="column">
+<figure class="image has-background-white">
+	<img src="{{ imagen }}" alt="Logo de la Asociación de Bibliotecarios y Documentalistas de Canarias" />
+</figure>
+</div>
+<div class="column is-full">
+<div class="buttons">
+	<a class="button is-primary" href="{{ slug }}">Más información</a>
+	<a class="button is-warning" href="{{ SITEURL }}/contactar.html">Contactar</a>
+</div>
+</div>
+</div>
+{%- endmacro %}

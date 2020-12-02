@@ -5,14 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://corujadigital.tech/</loc>
-<lastmod>2020-11-02T23:39:18-00:00</lastmod>
+<lastmod>2020-12-02T18:38:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://corujadigital.tech/blog.html</loc>
-<lastmod>2020-11-02T23:39:18-00:00</lastmod>
+<lastmod>2020-12-02T18:38:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -27,6 +27,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://corujadigital.tech/aviso-legal</loc>
 <lastmod>2020-10-27T12:00:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://corujadigital.tech/ciencia-abierta-wikidata</loc>
+<lastmod>2020-12-02T17:30:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -53,6 +60,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://corujadigital.tech/herramientas-servicios</loc>
+<lastmod>2020-12-02T16:30:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
 <loc>https://corujadigital.tech/politica-privacidad</loc>
 <lastmod>2020-10-26T20:00:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -68,7 +82,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://corujadigital.tech/servicios</loc>
-<lastmod>2020-06-08T19:00:00+01:00</lastmod>
+<lastmod>2020-12-02T16:30:00+00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>

@@ -119,7 +119,11 @@ NAVBARMAIN = (("Quiénes somos", "acerca-de", "fas fa-users"),
               ("Contactar", "contactar", "fas fa-at"))
 
 
-PLUGINS = ["pelican.plugins.seo", "pelican.plugins.sitemap"]
+PLUGINS = ["pelican.plugins.jinja2content",
+           "pelican.plugins.seo",
+           "pelican.plugins.sitemap"]
+
+JINJA2CONTENT_TEMPLATES = ["templates"]
 
 SITEMAP = {
     "format": "xml",

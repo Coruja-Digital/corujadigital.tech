@@ -14,25 +14,27 @@
 
 {% block content %}
 	<section class="section">
-		<div class="columns is-centered is-vcentered">
+		<div class="columns is-centered is-vcentered is-multiline">
 			<div class="column is-three-fifths">
 				<div class="card">
 					<header class="card-header">
-						<div class="column">
-							<h1 class="card-header-title title">
-								{{ page.title }}
-							</h1>
-							{% if page.subtitle %}
-								<h2 class="subtitle">
-									{{ page.subtitle }}
-								</h2>
-							{% endif %}
+						<div class="columns is-multiline">
+							<div class="column is-full-mobile has-text-centered-mobile">
+								<h1 class="card-header-title title">
+									{{ page.title }}
+								</h1>
+								{% if page.subtitle %}
+									<h2 class="subtitle">
+										{{ page.subtitle }}
+									</h2>
+								{% endif %}
+							</div>
+							<div class="column is-narrow has-text-right has-text-centered-mobile mt-5 is-full-mobile">
+								<p>
+									<time itemprop="dateCreated" datetime="{{ page.date.isoformat() }}">{{ page.locale_date }}</time>
+								</p>
+							</div>
 						</div>
-						<div class="column is-narrow has-text-right mt-5">
-              <p>
-                <time itemprop="dateCreated" datetime="{{ page.date.isoformat() }}">{{ page.locale_date }}</time>
-              </p>
-            </div>
 					</header>
 					<div class="card-content">
 						<div class="content">

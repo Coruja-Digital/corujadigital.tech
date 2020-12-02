@@ -33,24 +33,26 @@
 			<div class="column is-three-fifths">
 				<div class="card">
 					<header class="card-header">
-						<div class="column">
-							<h1 class="card-header-title title">
-								{{ article.title }}
-							</h1>
-							{% if article.subtitle %}
-								<h2 class="subtitle">
-									{{ article.subtitle }}
-								</h2>
-							{% endif %}
+						<div class="columns is-multiline">
+							<div class="columni is-full-mobile has-text-centered-mobile">
+								<h1 class="card-header-title title">
+									{{ article.title }}
+								</h1>
+								{% if article.subtitle %}
+									<h2 class="subtitle">
+										{{ article.subtitle }}
+									</h2>
+								{% endif %}
+							</div>
+							<div class="column is-narrow has-text-right mt-5 is-full-mobile has-text-centered-mobile">
+								<p>
+									<time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+								</p>
+								<p>
+									<a class="tag" href="/blog/cat/{{ article.category.slug }}">{{ article.category }}</a>
+								</p>
+							</div>
 						</div>
-						<div class="column is-narrow has-text-right mt-5">
-              <p>
-                <time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
-              </p>
-							<p>
-								<a class="tag" href="/blog/cat/{{ article.category.slug }}">{{ article.category }}</a>
-							</p>
-            </div>
 					</header>
 					<div class="card-content">
 						<div class="content">

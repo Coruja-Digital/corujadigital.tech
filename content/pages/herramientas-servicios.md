@@ -1,7 +1,7 @@
-title: Herramientas y servicios que utilizamos
+title: Herramientas y servicios que utilizamos en nuestros proyectos
 date: 2020-12-2 16:30
 modified: 2020-12-2 16:30
-description: Introducción a nuestra iniciativa por utilizar software libre y de código abierto, así como a las herramientas que utilizamos y la posibilidad de desarrollar herramientas necesarias para cada proyecto.
+description: Breve introducción a parte del software libre y de código abierto que utilizamos y la posibilidad de desarrollar herramientas necesarias para cada proyecto.
 slug: herramientas-servicios
 
 En Coruja Digital somos promotores del software libre y de código abierto, por lo que siempre que es posible intentamos que los proyectos se realicen con este tipo de herramientas.
@@ -13,6 +13,9 @@ En cuanto a la gestión de contenido para sitios web no solo existe una amplia g
 Sin embargo, no siempre es necesario instalar un gestor de contenidos dinámicos. Según los requisitos del proyecto puede ser más eficaz montar un sitio web bajo el concepto [Jamstack](https://jamstack.org/) y tecnologías basadas en la generación de sitios sin necesidad de establecer un servidor web.
 
 Normalmente cuando trabajamos en proyectos que conllevan gestión de datos, desarrollo de software o tareas similares, utilizamos control de versiones, ya sea a partir de GitHub o GitLab.
+
+Si te gustaría utilizar alguna de estas herramientas y servicios, o crees que podríamos ayudarte con alguna que ya utilizas o tienes pensado utilizar, no dudes en [contactar con nosotros](https://corujadigital.tech/contactar) y estudiaremos tu proyecto o propuesta sin compromiso.
+
 
 ## ¿Y si no hay una herramienta que cubra mis necesidades?
 

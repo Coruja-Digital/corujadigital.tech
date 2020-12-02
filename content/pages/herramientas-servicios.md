@@ -4,8 +4,6 @@ modified: 2020-12-2 16:30
 description: Introducción a nuestra iniciativa por utilizar software libre y de código abierto, así como a las herramientas que utilizamos y la posibilidad de desarrollar herramientas necesarias para cada proyecto.
 slug: herramientas-servicios
 
-En Coruja Digital estamos preparados para abordar proyectos de diversa índole gracias a [nuestro equipo](https://corujadigital.tech/acerca-de.html) multidisciplinar.
-
 En Coruja Digital somos promotores del software libre y de código abierto, por lo que siempre que es posible intentamos que los proyectos se realicen con este tipo de herramientas.
 
 Para la gestión documental existen diferentes opciones que se pueden ajustar según la escala y el tipo de proyecto o la necesidad, desde Invenio hasta AtoM u Omeka. En cuanto a la gestión de publicaciones académicas, el software por excelencia es el desarrollado por el [*Public Knowledge Project*](https://pkp.sfu.ca/), entre los que cabe destacar Open Journal System y Open Preprint Systems.

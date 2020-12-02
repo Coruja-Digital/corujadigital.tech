@@ -4,7 +4,7 @@ modified: 2020-12-2 16:30
 description: Catálogo de los servicios que proporciona Coruja Digital y proyectos posibles. Se informa sobre algunas de las herramientas y servicios que se utilizan.
 slug: servicios
 
-En Coruja Digital estamos preparados para abordar proyectos de diversa índole gracias a [nuestro equipo](https://corujadigital.tech/acerca-de.html) multidisciplinar.
+En Coruja Digital estamos preparados para abordar proyectos de diversa índole gracias a [nuestro equipo](https://corujadigital.tech/acerca-de) multidisciplinar y al uso de [software de acceso abierto y libre](https://corujadigital.tech/herramientas-servicios).
 
 ## Productos principales
 
@@ -32,5 +32,5 @@ Además de los productos expuestos anteriormente, prestamos los siguientes servi
   - Gestión de sitios web y comunicación en redes sociales para proyectos de ámbito cultural y científico.
   - Formación en diferentes ámbitos y aspectos, desde alfabetización digital básica hasta aprendizaje especializado, así como el uso de herramientas concretas.
 
-Estos son solo algunos de los servicios que ofertamos. Si no encuentras uno que coincida con lo que tienes pensado, no dudes en [contactar con nosotros](https://corujadigital.tech/contactar.html) y estudiaremos la viabilidad de tu idea o proyecto encantados y sin compromiso.
+Estos son solo algunos de los servicios que ofertamos. Si no encuentras uno que coincida con lo que tienes pensado, no dudes en [contactar con nosotros](https://corujadigital.tech/contactar) y estudiaremos la viabilidad de tu idea o proyecto encantados y sin compromiso.
 

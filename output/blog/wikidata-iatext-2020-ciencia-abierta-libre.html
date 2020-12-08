@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <title>
+   Wikidata-IATEXT 2020: proyecto de humanidades y ciencia abierta - Coruja Digital
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Pelican" name="generator"/>
+  <meta content="Iván Hernández Cazorla" name="author"/>
+  <meta content="Coruja Digital ofrece servicios relacionados con las tecnologías de la información y la comunicación para el patrimonio cultural y la ciencia abierta" name="description"/>
+  <meta content="coruja,digital,tecnología,ciencia,abierta,patrimonio,wiki,humanidades,Canarias,Islas Canarias" name="keywords"/>
+  <link href="/theme/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+  <link href="/theme/css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="/theme/css/cookieconsent.min.css" rel="stylesheet" type="text/css"/>
+  <script src="/theme/navbar.js">
+  </script>
+  <script src="/theme/js/fontawesome-all.min.js">
+  </script>
+  <!-- Matomo -->
+  <script type="text/javascript">
+   var _paq = window._paq || [];
+					/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+					_paq.push(["setDoNotTrack", true]);
+					_paq.push(["disableCookies"]);
+					_paq.push(['trackPageView']);
+					_paq.push(['enableLinkTracking']);
+					(function() {
+						var u="//stats.corujadigital.tech/";
+						_paq.push(['setTrackerUrl', u+'matomo.php']);
+						_paq.push(['setSiteId', '1']);
+						var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+						g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+					})();
+  </script>
+  <noscript>
+   <p>
+    <img alt="" src="//stats.corujadigital.tech/matomo.php?idsite=1&amp;rec=1" style="border:0;"/>
+   </p>
+  </noscript>
+  <!-- End Matomo Code -->
+  <link href="https://corujadigital.tech/blog/wikidata-iatext-2020-ciencia-abierta-libre" rel="canonical"/>
+  <script type="application/ld+json">
+   {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Coruja Digital", "item": "https://corujadigital.tech"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://corujadigital.tech/blog"}, {"@type": "ListItem", "position": 3, "name": "Wikidata iatext 2020 ciencia abierta libre", "item": "https://corujadigital.tech/blog/wikidata-iatext-2020-ciencia-abierta-libre.html"}]}
+  </script>
+  <script type="application/ld+json">
+   {"@context": "https://schema.org", "@type": "Article", "author": {"@type": "Person", "name": "Iván Hernández Cazorla"}, "publisher": {"@type": "Organization", "name": "Coruja Digital", "logo": {"@type": "ImageObject", "url": "https://corujadigital.tech/theme/logo_coruja_digital.png"}}, "headline": "Wikidata-IATEXT 2020: proyecto de humanidades y ciencia abierta", "about": "Ciencia abierta", "datePublished": "2020-12-07 00:00"}
+  </script>
+ </head>
+ <body>
+  <nav aria-label="main navigation" class="navbar is-boxshadow" id="cabecera" role="navigation">
+   <div class="navbar-brand">
+    <a class="navbar-item" href="https://corujadigital.tech">
+     <img src="/theme/logo_coruja_digital.png"/>
+    </a>
+    <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navbarMain" role="button">
+     <span aria-hidden="true">
+     </span>
+     <span aria-hidden="true">
+     </span>
+     <span aria-hidden="true">
+     </span>
+    </a>
+   </div>
+   <div class="navbar-menu has-text-centered-mobile" id="navbarMain">
+    <div class="navbar-start">
+     <a class="navbar-item" href="https://corujadigital.tech">
+      <span class="icon">
+       <i aria-hidden="true" class="fas fa-home">
+       </i>
+      </span>
+      <span>
+       Inicio
+      </span>
+     </a>
+     <a class="navbar-item" href="https://corujadigital.tech/acerca-de">
+      <span class="icon">
+       <i aria-hidden="true" class="fas fa-users">
+       </i>
+      </span>
+      <span>
+       Quiénes somos
+      </span>
+     </a>
+     <a class="navbar-item" href="https://corujadigital.tech/servicios">
+      <span class="icon">
+       <i aria-hidden="true" class="fas fa-users">
+       </i>
+      </span>
+      <span>
+       Servicios
+      </span>
+     </a>
+     <a class="navbar-item" href="https://corujadigital.tech/clientes">
+      <span class="icon">
+       <i aria-hidden="true" class="fas fa-laptop">
+       </i>
+      </span>
+      <span>
+       Clientes
+      </span>
+     </a>
+     <a class="navbar-item" href="https://corujadigital.tech/blog">
+      <span class="icon">
+       <i aria-hidden="true" class="fas fa-blog">
+       </i>
+      </span>
+      <span>
+       Blog
+      </span>
+     </a>
+     <a class="navbar-item" href="https://corujadigital.tech/recursos-liberados">
+      <span class="icon">
+       <i aria-hidden="true" class="fas fa-folder">
+       </i>
+      </span>
+      <span>
+       Recursos liberados
+      </span>
+     </a>
+     <a class="navbar-item" href="https://corujadigital.tech/contactar">
+      <span class="icon">
+       <i aria-hidden="true" class="fas fa-at">
+       </i>
+      </span>
+      <span>
+       Contactar
+      </span>
+     </a>
+    </div>
+    <div class="navbar-end is-inline-flex-mobile">
+     <div class="navbar-item">
+      <div class="field is-grouped">
+       <p class="control">
+        <a class="bd-tw-button button is-info" data-social-action="follow" data-social-network="Twitter" data-social-target="https://corujadigital.tech" href="https://twitter.com/coruja_digital" target="_blank">
+         <span class="icon">
+          <i class="fab fa-twitter">
+          </i>
+         </span>
+         <span>
+          Twitter
+         </span>
+        </a>
+       </p>
+       <p class="control">
+        <a class="button is-dark" href="https://github.com/Coruja-Digital">
+         <span class="icon">
+          <i class="fab fa-github-alt">
+          </i>
+         </span>
+         <span>
+          GitHub
+         </span>
+        </a>
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </nav>
+  <!--
+				<div class="notification is-warning">
+<p>¡Estamos desarrollando el sitio web! Esperamos tenerlo lo más pronto posible.</p><p>Para cualquier duda, proyecto o trabajo puedes contactar con nosotros en <a href='mailto:ivan@corujadigital.tech'> ivan@corujadigital.tech</a></p>				</div>
+				-->
+  <div class="hero is-bold">
+   <div class="hero-body">
+    <div class="container">
+     <div class="columns is-vcentered is-centered has-text-centered-mobile">
+      <div class="column is-narrow is-inline-flex-mobile">
+       <p class="image is-128x128">
+        <a href="https://corujadigital.tech">
+         <img src="/theme/logo_coruja_digital.png"/>
+        </a>
+       </p>
+      </div>
+      <div class="column is-two-fifths">
+       <h1 class="title">
+        Coruja Digital
+       </h1>
+       <h2 class="subtitle">
+        Tecnologías de la información y la comunicación para el patrimonio y la ciencia abierta
+       </h2>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="hero is-info has-text-centered">
+   <div class="hero-body">
+    <div class="container">
+     <h1 class="title">
+      Últimas entradas en el blog
+     </h1>
+     <nav aria-label="breadcrumbs" class="breadcrumb has-arrow-separator is-centered">
+      <ul>
+       <li>
+        <a href="https://corujadigital.tech">
+         <span class="icon is-small">
+          <i aria-hidden="true" class="fas fa-home">
+          </i>
+         </span>
+         <span>
+          Coruja Digital
+         </span>
+        </a>
+       </li>
+       <li>
+        <a href="https://corujadigital.tech/blog">
+         <span class="icon is-small">
+          <i aria-hidden="true" class="fas fa-blog">
+          </i>
+         </span>
+         Blog
+        </a>
+       </li>
+       <li>
+        <a href="https://corujadigital.tech/blog/cat/ciencia-abierta">
+         <span class="icon is-small">
+          <i aria-hidden="true" class="fas fa-folder">
+          </i>
+         </span>
+         Ciencia abierta
+        </a>
+       </li>
+       <li class="is-active">
+        <a aria-current="page" href="#">
+         <span class="icon is-small">
+          <i aria-hidden="true" class="fas fa-file-alt">
+          </i>
+         </span>
+         Wikidata-IATEXT 2020: proyecto de humanidades y ciencia abierta
+        </a>
+       </li>
+      </ul>
+     </nav>
+    </div>
+   </div>
+  </div>
+  <section class="section">
+   <div class="columns is-centered is-vcentered">
+    <div class="column is-three-fifths">
+     <div class="card">
+      <header class="card-header">
+       <div class="columns is-multiline">
+        <div class="column is-full-mobile has-text-centered-mobile">
+         <h1 class="card-header-title title">
+          Wikidata-IATEXT 2020: proyecto de humanidades y ciencia abierta
+         </h1>
+        </div>
+        <div class="column is-narrow has-text-right has-text-centered-mobile mt-5 is-full-mobile">
+         <p>
+          <time datetime="2020-12-07T00:00:00+00:00" itemprop="dateCreated">
+           07 de diciembre de 2020
+          </time>
+         </p>
+         <p>
+          <a class="tag" href="/blog/cat/ciencia-abierta">
+           Ciencia abierta
+          </a>
+         </p>
+        </div>
+       </div>
+      </header>
+      <div class="card-content">
+       <div class="content">
+        <p>
+         Wikidata es una base de conocimiento libre con más de 90 millones de elementos (datos consultados en la
+         <a href="https://wikidata.org">
+          página principal de Wikidata
+         </a>
+         de Wikidata el 7 de diciembre de 2020). Cada elemento representa algo concreto: una persona, un objeto, un lugar, una máquina, un lenguaje, etc. Se puede decir entonces que Wikidata pretende almacenar cada pieza del conocimiento humano y enlazarlo entre sí.
+        </p>
+        <p>
+         Dentro del universo que supone Wikidata, tanto por su contenido como por su comunidad, se pueden crear wikiproyectos: grupos flexibles y abiertos en los que las personas interesadas se pueden involucrar para organizar y definir el conocimiento sobre un tema específico. Entre los wikiproyectos hay varios que se dedican a tratar Wikidata como un conjunto de datos bibliográficos, como el
+         <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Source_MetaData">
+          <em>
+           WikiProject Source Metadata
+          </em>
+         </a>
+         , parte de WikiCite.
+        </p>
+        <figure class="image">
+         <img alt="Logo de WikiCite, una llave abierta y otra cerrada seguida del nombre de la iniciativa en minúscula" src="/theme/images/wikicite_logo.png">
+          <figcaption>
+           Logo de WikiCite, una iniciativa para favorecer el uso de Wikidata como un corpus de datos bibliográficos.
+          </figcaption>
+         </img>
+        </figure>
+        <p>
+         <a href="https://meta.wikimedia.org/wiki/WikiCite">
+          WikiCite
+         </a>
+         es una iniciativa aún más amplia que el mencionado wikiproyecto. No solo actúa como una iniciativa comunitaria para desarrollar un
+         <em>
+          corpus
+         </em>
+         de datos bibliográficos y de citas abiertas, sino que también se organizan conferencias, talleres y se dan subvenciones. Todo esto con el objetivo de
+         <strong>
+          ampliar y mejorar el conocimiento libre sobre la humanidad y enlazarlo entre sí
+         </strong>
+         .
+        </p>
+        <h2>
+         Wikidata y la ciencia abierta
+        </h2>
+        <p>
+         Este tipo de proyectos no solo benefician si tenemos en cuenta el amplio concepto de conocimiento libre (en inglés,
+         <em>
+          open knowledge
+         </em>
+         ), sino que hacen una contribución directa a iniciativas basadas en el concepto de ciencia abierta: facilitar el acceso a la investigación científica, desde publicaciones hasta conjuntos de datos y software. Este concepto, que también se podría definir como movimiento, insiste también en que la difusión sea accesible por cualquier persona, ya sean investigadores o aficionados.
+        </p>
+        <p>
+         Proyectos como WikiCite y el
+         <em>
+          WikiProject Source Metadata
+         </em>
+         facilitan que Wikidata se utilice con el objetivo de facilitar el acceso a la ciencia. En 2018 Coruja Digital propuso al
+         <a href="https://iatext.ulpgc.es">
+          Instituto Universitario de Análisis y Aplicaciones Textuales
+         </a>
+         (IATEXT) un proyecto con el que contribuir tanto a la ciencia abierta como a Wikidata, en el marco de la iniciativa WikiCite: el Wikidata-IATEXT.
+        </p>
+        <h2>
+         Wikidata-IATEXT: humanidades, ciencia abierta, Wikidata y WikiCite
+        </h2>
+        <p>
+         El proyecto propuesto se denominó Wikidata-IATEXT y tuvo los siguientes objetivos:
+        </p>
+        <ol>
+         <li>
+          Compilar datos sobre sus investigadores y sus respectivas publicaciones científicas.
+         </li>
+         <li>
+          Introducirlos los datos compilados en Wikidata.
+         </li>
+        </ol>
+        <p>
+         El proyecto comenzó en febrero de 2018, cuando en Wikidata había alrededor de 4300 institutos de investigación (
+         <a href="https://www.wikidata.org/wiki/Q31855">
+          Q31855
+         </a>
+         ), 86 de ellos con al menos 1 investigador enlazado con la propiedad "miembro de" (
+         <a href="https://www.wikidata.org/wiki/Property:P463">
+          P463
+         </a>
+         ) y 25 institutos universitarios con al menos una publicación enlazada a uno de sus miembros.
+        </p>
+        <p>
+         El 20 de junio de 2019 publiqué una entrada en mi blog personal con el objetivo de difundir mi participación en los Wikidata Days 2019, un congreso al que fui invitado para presentar los resultados y conclusiones del proyecto Wikidata-IATEXT: "
+         <a href="https://ivanhercaz.com/a/wikidata-iatext_wikicite_scholia_corpus_datos_bibliogr%C3%A1ficos_wikidata.html">
+          Wikidata-IATEXT, WikICite y Scholia en los Wikidata Days 2019
+         </a>
+         ".
+        </p>
+        <p>
+         A finales de diciembre de 2019 se publicó el artículo
+         <em>
+          Wikidata, WikiCite y Scholia como herramientas para un corpus de datos bibliográficos enlazados. Curación y estructuración de la producción científica de los investigadores del IATEXT
+         </em>
+         en el número 40 de Prisma.com (
+         <em>
+          Revista de Ciências e Tecnologias da Informação e Comunicação
+         </em>
+         ). Está coautorizado por Manuel Ramírez Sánchez, antiguo coordinador de la división de Patrimonio Documental y Bibliometría del IATEXT, y Gregorio Rodríguez Herrera, director de dicho instituto, y se puede
+         <a href="http://hdl.handle.net/10553/60056">
+          consultar en accedaCRIS
+         </a>
+         , el repositorio institucional de la Universidad de Las Palmas de Gran Canaria.
+        </p>
+        <p>
+         El artículo presenta científica y detalladamente el proyecto Wikidata-IATEXT: las oportunidades de contribuir a la ciencia abierta y cómo, el proyecto Wikidata-IATEXT, su motivación y estado previo, la metodología aplicada, los resultados obtenidos, posibles casos de uso y problemas que afrontar. Recomendamos su lectura para un análisis completo de los datos con los que se trabajó y el resto de cuestiones mencionadas.
+        </p>
+        <p>
+         También se creó un
+         <a href="https://github.com/Coruja-Digital/wikidata-iatext">
+          repositorio de datos en GitHub
+         </a>
+         y en
+         <a href="http://doi.org/10.5281/zenodo.1461382">
+          Zenodo
+         </a>
+         para facilitar la consulta de los mismos y del exportador utilizado, una herramienta que tenemos pendiente mejorar. El repositorio de Zenodo proporciona un DOI, en caso de que se quiera citar o de que se utilice el repositorio de datos:
+         <a href="http://doi.org/10.5281/zenodo.1461382">
+          10.5281/zenodo.1461382
+         </a>
+        </p>
+        <h2>
+         Wikidata-IATEXT 2020: introducción de nuevos datos
+        </h2>
+        <p>
+         En 2020 el IATEXT ofreció a Coruja Digital realizar una revisión de las publicaciones de los investigadores, ya que en el paso de 2 años sus miembros habían publicado más obras (artículos, ponencias, capítulos de libros, libros, etc.).
+        </p>
+        <p>
+         La metodología utilizada fue similar a la de la primera edición de este proyecto, descrita en el artículo científico mencionado anteriormente. Sin embargo, en esta ocasión contamos con una fuente directa,
+         <a href="https://iatext.ulpgc.es/publicaciones">
+          un listado de publicaciones
+         </a>
+         elaborado por el IATEXT, y pudimos utilizar y cotejar prácticamente todos los artículos con accedaCRIS. En la edición anterior también utilizamos este repositorio como fuente, pero no disponía de todos los artículos, por lo que la principal fuente fue
+         <a href="https://dialnet.unirioja.es">
+          Dialnet
+         </a>
+         , una base de datos bibliográfica gestionada por la Fundación Dialnet, de la Universidad de La Rioja.
+        </p>
+        <p>
+         Además, quisimos comprobar que los elementos de los investigadores tuviesen un mínimo de propiedades concretas. Para ello elaboramos un esquema de entidad (en inglés,
+         <em>
+          Entity Schema
+         </em>
+         ) para confirmar la integridad del modelo de datos de la edición anterior. El esquema en cuestión es el
+         <a href="https://www.wikidata.org/wiki/EntitySchema:E220">
+          E220
+         </a>
+         , "miembros del Instituto Universitario de Análisis y Aplicaciones Textuales".
+        </p>
+        <p>
+         El proyecto se planteó a 2-3 meses y conllevó 8 315 ediciones, de las que 248 conllevan la creación de elementos.
+        </p>
+        <h3>
+         Miembros
+        </h3>
+        <p>
+         En cuanto a los miembros, se añadieron 4 nuevos que no constaban anteriormente y se creó el esquema mencionado previamente. Los elementos creados son los referidos a Luis Alberto Anaya Hernández (
+         <a href="https://wikidata.org/wiki/Q96243406">
+          Q96243406
+         </a>
+         ), Jesús Alexis García Moreno (
+         <a href="https://wikidata.org/wiki/Q96243322">
+          Q96243322
+         </a>
+         ), Aarón Moisés Santana Cordero (
+         <a href="https://wikidata.org/wiki/Q96243136">
+          Q96243136
+         </a>
+         ) y José Manuel Rodríguez Herrera (
+         <a href="https://wikidata.org/wiki/Q96241945">
+          Q96241945
+         </a>
+         ).
+        </p>
+        <h3>
+         Publicaciones
+        </h3>
+        <p>
+         Se crearon 244 elementos de publicaciones científicas de miembros del IATEXT o de sujetos relacionados con las mismas (revistas, actas, obras coordinadas, etc.). Estos sujetos relacionados son necesarios para crear elementos de publicaciones científicas que tengan un mínimo de completitud: debemos saber dónde se ha publicado la obra que representa el elemento. Si restamos este tipo de elementos, se obtiene la cifra de 205 elementos sobre publicaciones.
+        </p>
+        <p>
+         La creación de estos nuevos elementos también conllevó la revisión de elementos de la edición anterior, de manera que algunos se pudieron complementar con algunos aspectos adicionales, como es el caso de la adición de referencias entre elementos ya existentes gracias al uso de
+         <a href="https://dialnet.unirioja.es/metricas/">
+          Dialnet Métricas
+         </a>
+         como fuente.
+        </p>
+        <iframe referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" src="https://query.wikidata.org/embed.html#%23defaultView%3ABarChart%0A%23%20Pages%20per%20year%20bar%20chart%20of%20an%20organization%0ASELECT%0A%20%20%3Fyear%0A%20%20(SUM(%3Fpages_per_author)%20AS%20%3Fnumber_of_pages)%0A%20%20%3Fresearcher_label%0AWHERE%20%7B%0A%20%20%7B%0A%20%20%20%20SELECT%0A%20%20%20%20%20%20%3Fresearcher_label%20%3Fwork%20%3Fyear%0A%20%20%20%20%20%20(SAMPLE(%3Fpages)%20%2F%20COUNT(%3Fresearcher_of_paper)%20AS%20%3Fpages_per_author)%0A%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20%23%20Find%20authors%20associated%20with%20organization%0A%20%20%20%20%20%20FILTER%20EXISTS%20%7B%20%3Fresearcher%20wdt%3AP108%20%7C%20wdt%3AP463%20%7C%20(wdt%3AP1416%20%2F%20wdt%3AP361*)%20wd%3AQ27639076%20.%20%7D%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%3Fwork%20(wdt%3AP50%7Cwdt%3AP2093)%20%3Fresearcher_of_paper%20.%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%23%20Disabled%20to%20only%20look%20on%20scholarly%20articles%0A%20%20%20%20%20%20%23%20%3Fwork%20wdt%3AP31%20wd%3AQ13442814%20.%0A%20%20%20%20%20%20%0A%20%20%20%20%20%20%3Fwork%20wdt%3AP50%20%3Fresearcher%20.%0A%20%20%20%20%20%20%3Fwork%20wdt%3AP1104%20%3Fpages%20.%0A%20%20%20%20%20%20%3Fwork%20wdt%3AP577%20%3Fdate%20.%20%0A%20%20%20%20%20%20BIND(STR(YEAR(%3Fdate))%20AS%20%3Fyear)%20%0A%20%20%20%20%20%20%3Fresearcher%20rdfs%3Alabel%20%3Fresearcher_label%20.%20FILTER(LANG(%3Fresearcher_label)%20%3D%20'en')%0A%20%20%20%20%7D%20%0A%20%20%20%20GROUP%20BY%20%3Fwork%20%3Fresearcher_label%20%3Fyear%0A%20%20%7D%0A%7D%0AGROUP%20BY%20%3Fyear%20%3Fresearcher_label%20%0AORDER%20BY%20%3Fyear" style="width: 80vw; height: 50vh; border: none;">
+        </iframe>
+        <h2>
+         Scholia: una herramienta efectiva para la consulta de los datos
+        </h2>
+        <p>
+         Scholia es un servicio que permite visualizar los datos académicos y científicos de los que dispone Wikidata. Se pueden consultar perfiles de investigadores, temas, especies e incluso sustancia químicas. También de organizaciones, como puede ser el IATEXT.
+        </p>
+        <p>
+         Si se consulta el perfil del
+         <a href="https://scholia.toolforge.org/organization/Q27639076">
+          IATEXT en Scholia
+         </a>
+         se pueden observar diferentes aspectos: sus miembros, un gráfico de coautoría (incrustado después de este párrafo), temas en los que publican sus investigadores, publicaciones recientes, producción en número de páginas (incrustado al final del subapartado anterior) y las citas de sus obras, entre otros aspectos.
+        </p>
+        <iframe referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" src="https://query.wikidata.org/embed.html#%23defaultView%3AGraph%0ASELECT%0A%20%20%3Fauthor1%20%3Fauthor1Label%20%3Fimage1%20%3Frgb%0A%20%20%3Fauthor2%20%3Fauthor2Label%20%3Fimage2%20%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%3Fauthor1%20(SAMPLE(%3Fimage1_)%20AS%20%3Fimage1)%0A%20%20%20%20%3Fauthor2%20(SAMPLE(%3Fimage2_)%20AS%20%3Fimage2)%0A%20%20%20%20(SAMPLE(%3Frgb_)%20AS%20%3Frgb)%0A%20%20WHERE%20%7B%0A%20%20%20%20wd%3AQ27639076%20%5Ewdt%3AP361*%20%2F%20%5E(%20wdt%3AP108%20%7C%20wdt%3AP1416%20%7C%20wdt%3AP463%20)%20%3Fauthor1%20%2C%20%3Fauthor2%20.%20%0A%20%20%20%20%3Fwork%20wdt%3AP50%20%3Fauthor1%20%2C%20%3Fauthor2%20.%0A%0A%20%20%20%20%23%20Only%20display%20co-authorship%20for%20certain%20types%20of%20documents%0A%20%20%20%20%23%20Journal%20and%20conference%20articles%2C%20books%2C%20not%20(yet%3F)%20software%0A%20%20%20%20VALUES%20%3Fpublication_type%20%7B%20wd%3AQ13442814%20wd%3AQ571%20wd%3AQ26973022%20wd%3AQ17928402%20wd%3AQ947859%20wd%3AQ54670950%20%7D%0A%20%20%20%20FILTER%20EXISTS%20%7B%20%3Fwork%20wdt%3AP31%20%3Fpublication_type%20.%20%7D%0A%0A%20%20%20%20%23%20No%20self-links.%0A%20%20%20%20FILTER%20(%3Fauthor1%20!%3D%20%3Fauthor2)%0A%0A%20%20%20%20%23%20Images%0A%20%20%20%20OPTIONAL%20%7B%20%3Fauthor1%20wdt%3AP18%20%3Fimage1_%20%7D%0A%20%20%20%20OPTIONAL%20%7B%20%3Fauthor2%20wdt%3AP18%20%3Fimage2_%20%7D%0A%0A%20%20%20%20%23%20Coloring%20of%20the%20nodes%0A%20%20%20%20BIND(%22FFFFFF%22%20AS%20%3Frgb_)%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fauthor1%20%3Fauthor2%0A%7D%20AS%20%25result%0AWHERE%20%7B%0A%20%20INCLUDE%20%25result%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%2Cda%2Cde%2Ces%2Cfr%2Cjp%2Csv%2Cru%2Czh%22.%0A%20%20%7D%0A%7D%0A" style="width: 80vw; height: 50vh; border: none;">
+        </iframe>
+        <p>
+         Los dos gráficos incrustados en esta entrada son un ejemplo de cómo se pueden utilizar los datos introducidos en Wikidata con consultas predefinidas por Scholia. No solo se pueden incrustar en el HTML de un sitio web mediante
+         <code>
+          iframes
+         </code>
+         , sino que se pueden integrar en prácticamente cualquier lenguaje de programación, como Python, JavaScript o PHP, lo que permite su integración en sistemas de gestión de contenido.
+        </p>
+        <p>
+         Este servicio, creado por Daniel Mietchen, Egon Willighagen y Finn Årup Nielsen, tiene un gran potencial no solo por lo que nos ofrece, sino por la gran variedad de aspectos que puede abordar. Además, es software libre y abierto, por lo que cualquier persona puede
+         <a href="https://github.com/fnielsen/scholia">
+          contribuir a su desarrollas, hacer sugerencias o reportar problemas
+         </a>
+         .
+        </p>
+        <hr/>
+        <p>
+         La ciencia abierta es una oportunidad para las instituciones científicas y una necesidad para la sociedad. Wikidata nos proporciona el medio para transferir a la sociedad lo que las instituciones científicas producen. Y Scholia nos facilita consultar estos datos fácilmente.
+        </p>
+        <p>
+         En Coruja Digital tenemos experiencia con este tipo de proyectos y ofrecemos un servicio concreto dedicado a la transferencia de conocimiento y a la ciencia abierta con Wikidata como base de conocimientos.
+        </p>
+        <p>
+         Si quieres más información puedes consultar nuestro producto
+         <a href="https://corujadigital.tech/ciencia-abierta-wikidata">
+          <strong>
+           Ciencia abierta en Wikidata
+          </strong>
+         </a>
+         , disponible en nuestro
+         <a href="https://corujadigital.tech/servicios">
+          catálogo de servicios
+         </a>
+         .
+        </p>
+        <p>
+         Si tienes dudas o quieres más información, puedes
+         <a href="https://corujadigital.tech/contactar">
+          contactar con nosotros
+         </a>
+         . ¡Será un placer responderte!
+        </p>
+       </div>
+      </div>
+      <footer class="card-footer">
+       <div class="tags card-footer-item is-vcentered mt-2 mb-2">
+        <a class="tag" href="/blog/tag/ciencia-abierta">
+         ciencia abierta
+        </a>
+        <a class="tag" href="/blog/tag/conocimiento-libre">
+         conocimiento libre
+        </a>
+        <a class="tag" href="/blog/tag/wikidata">
+         Wikidata
+        </a>
+        <a class="tag" href="/blog/tag/wikicite">
+         WikiCite
+        </a>
+        <a class="tag" href="/blog/tag/scholia">
+         Scholia
+        </a>
+        <a class="tag" href="/blog/tag/wikiproject-source-metadata">
+         WikiProject Source Metadata
+        </a>
+       </div>
+       <p class="card-footer-item">
+        Última actualización: 07 de diciembre de 2020
+       </p>
+      </footer>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!--
+    <h1>Wikidata-IATEXT 2020: proyecto de humanidades y ciencia abierta</h1>
+    
+
+    
+
+        <p>
+        Última actualización: 07 de diciembre de 2020
+        </p>
+    -->
+  <div class="has-background-link is-fixed-bottom is-boxshadow" id="scroll-up">
+   <a href="#cabecera">
+    <span class="icon has-text-info">
+     <i class="fas fa-angle-double-up fa-lg">
+     </i>
+    </span>
+   </a>
+  </div>
+  <footer class="footer is-success is-fullheight">
+   <div class="container">
+    <div class="columns">
+     <div class="column has-text-right has-text-centered-mobile">
+      <p class="has-text-weight-semibold">
+       Navegación
+      </p>
+      <ul>
+       <li>
+        <a href="https://corujadigital.tech">
+         <span>
+          Inicio
+         </span>
+        </a>
+        <span class="icon">
+         <i class="fas fa-home">
+         </i>
+        </span>
+       </li>
+       <li>
+        <span>
+         <a href="acerca-de">
+          Quiénes somos
+         </a>
+        </span>
+        <span class="icon">
+         <i aria-hidden="true" class="fas fa-users">
+         </i>
+        </span>
+       </li>
+       <li>
+        <span>
+         <a href="servicios">
+          Servicios
+         </a>
+        </span>
+        <span class="icon">
+         <i aria-hidden="true" class="fas fa-users">
+         </i>
+        </span>
+       </li>
+       <li>
+        <span>
+         <a href="clientes">
+          Clientes
+         </a>
+        </span>
+        <span class="icon">
+         <i aria-hidden="true" class="fas fa-laptop">
+         </i>
+        </span>
+       </li>
+       <li>
+        <span>
+         <a href="blog">
+          Blog
+         </a>
+        </span>
+        <span class="icon">
+         <i aria-hidden="true" class="fas fa-blog">
+         </i>
+        </span>
+       </li>
+       <li>
+        <span>
+         <a href="recursos-liberados">
+          Recursos liberados
+         </a>
+        </span>
+        <span class="icon">
+         <i aria-hidden="true" class="fas fa-folder">
+         </i>
+        </span>
+       </li>
+       <li>
+        <span>
+         <a href="contactar">
+          Contactar
+         </a>
+        </span>
+        <span class="icon">
+         <i aria-hidden="true" class="fas fa-at">
+         </i>
+        </span>
+       </li>
+      </ul>
+     </div>
+     <div class="column is-half has-text-centered">
+      <p class="has-text-weight-semibold">
+       Coruja Digital
+      </p>
+      <p>
+       Hecho con
+       <span class="icon">
+        <i aria-hidden="true" class="fas fa-heart" title="amor">
+        </i>
+       </span>
+       desde Canarias para todo el
+       <span aria-hidden="true" class="icon" title="mundo">
+        <i class="fas fa-globe-africa">
+        </i>
+       </span>
+      </p>
+      <p>
+       <a href="/creditos">
+        Créditos
+       </a>
+       del software y elementos gráficos utilizados.
+      </p>
+      <p>
+       El contenido del sitio web está bajo una licencia
+       <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">
+        <span class="icon">
+         <i aria-hidden="true" class="fab fa-creative-commons" title="Creative Commons">
+         </i>
+        </span>
+        <span class="icon">
+         <i aria-hidden="true" class="fab fa-creative-commons-by" title="Atribuir">
+         </i>
+        </span>
+        <span class="icon">
+         <i aria-hidden="true" class="fab fa-creative-commons-sa" title="Compartir Igual">
+         </i>
+        </span>
+        4.0
+       </a>
+       .
+      </p>
+     </div>
+     <div class="column has-text-left has-text-centered-mobile">
+      <p class="mb-1">
+       <span class="icon">
+        <i class="fas fa-file-contract">
+        </i>
+       </span>
+       <a href="https://corujadigital.tech/aviso-legal">
+        Aviso legal
+       </a>
+      </p>
+      <p class="mb-1">
+       <span class="icon">
+        <i class="fas fa-user-secret">
+        </i>
+       </span>
+       <a href="https://corujadigital.tech/politica-privacidad">
+        Política de privacidad
+       </a>
+      </p>
+      <p>
+       <span class="icon">
+        <i class="fas fa-sitemap">
+        </i>
+       </span>
+       <a href="https://corujadigital.tech/sitemap.xml">
+        Mapa del sitio
+       </a>
+      </p>
+      <hr/>
+      <div class="field is-grouped is-inline-flex-mobile">
+       <p class="control">
+        <a class="bd-tw-button button is-info" data-social-action="follow" data-social-network="Twitter" data-social-target="https://corujadigital.tech" href="https://twitter.com/coruja_digital" target="_blank">
+         <span class="icon">
+          <i class="fab fa-twitter">
+          </i>
+         </span>
+         <span>
+          Twitter
+         </span>
+        </a>
+       </p>
+       <p class="control">
+        <a class="button is-dark" href="https://github.com/Coruja-Digital">
+         <span class="icon">
+          <i class="fab fa-github-alt">
+          </i>
+         </span>
+         <span>
+          GitHub
+         </span>
+        </a>
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="/theme/js/cookieconsent.min.js">
+  </script>
+  <script src="/theme/js/cookieconsent-init.js">
+  </script>
+  <script src="/theme/js/bulma-carousel.min.js">
+  </script>
+  <script>
+   bulmaCarousel.attach('#carousel-clientes', {
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            navigationKeys: false,
+            loop: true,
+            autoplay: true,
+            autoplaySpeed: 2000
+        });
+  </script>
+ </body>
+</html>

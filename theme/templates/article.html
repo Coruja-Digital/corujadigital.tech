@@ -34,7 +34,7 @@
 				<div class="card">
 					<header class="card-header">
 						<div class="columns is-multiline">
-							<div class="columni is-full-mobile has-text-centered-mobile">
+							<div class="column is-full-mobile has-text-centered-mobile">
 								<h1 class="card-header-title title">
 									{{ article.title }}
 								</h1>
@@ -44,7 +44,7 @@
 									</h2>
 								{% endif %}
 							</div>
-							<div class="column is-narrow has-text-right mt-5 is-full-mobile has-text-centered-mobile">
+							<div class="column is-narrow has-text-right has-text-centered-mobile mt-5 is-full-mobile">
 								<p>
 									<time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
 								</p>

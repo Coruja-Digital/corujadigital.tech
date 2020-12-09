@@ -1,9 +1,9 @@
 Title: Wikidata-IATEXT 2020: proyecto de humanidades y ciencia abierta
 Category: Ciencia abierta
 Date: 2020-12-07
-Description: ...
+Description: La ciencia abierta es un recurso esencial para la sociedad y que Wikidata es un proyecto Wikimedia esencial, por ello presentamos el proyecto Wikidata-IATEXT.
 Slug: wikidata-iatext-2020-ciencia-abierta-libre
-Tags: ciencia abierta, conocimiento libre, Wikidata, WikiCite, Scholia, WikiProject Source Metadata
+Tags: ciencia abierta, conocimiento libre, Wikidata, WikiCite, Scholia, WikiProject Source Metadata, humanidades
 Modified: 2020-12-07
 
 Wikidata es una base de conocimiento libre con más de 90&nbsp;millones de elementos (datos consultados en la [página principal de Wikidata](https://wikidata.org) de Wikidata el 7 de diciembre de 2020). Cada elemento representa algo concreto: una persona, un objeto, un lugar, una máquina, un lenguaje, etc. Se puede decir entonces que Wikidata pretende almacenar cada pieza del conocimiento humano y enlazarlo entre sí.

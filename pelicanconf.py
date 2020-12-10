@@ -112,8 +112,8 @@ FOOTER = ("<a href='/creditos'>Créditos</a> del software y elementos gráficos 
           "<a href='/politica-privacidad'>Política de privacidad</a>")
 
 NAVBARMAIN = (("Quiénes somos", "acerca-de", "fas fa-users"),
-              ("Servicios", "servicios", "fas fa-users"),
-              ("Clientes", "clientes", "fas fa-laptop"),
+              ("Servicios", "servicios", "fas fa-laptop"),
+              ("Clientes", "clientes", "fas fa-university"),
               ("Blog", "blog", "fas fa-blog"),
               ("Recursos liberados", "recursos-liberados", "fas fa-folder"),
               ("Contactar", "contactar", "fas fa-at"))

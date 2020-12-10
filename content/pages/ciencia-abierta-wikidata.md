@@ -15,7 +15,7 @@ La ciencia abierta es un movimiento que intenta que la investigación científic
 
 <!-- Aquí debería haber un enlace a una entrada de blog del tipo: ¿quiéres saber más sobre WikiCite? Lee nuestro artículo sobre WikiCite -->
 
-[Nuestro equipo](https://corujadigital.tech/acerca-de) multidisciplinar no solo está acostumbrado a trabajar con [software y servicios relacionados](https://corujadigital.tech/herramientas-servicios), sino que ya ha elaborado proyectos de este tipo: Wikidata-IATEXT.
+[Nuestro equipo](https://corujadigital.tech/acerca-de) multidisciplinar no solo está acostumbrado a trabajar con [software y servicios relacionados](https://corujadigital.tech/herramientas-servicios), sino que ya ha elaborado proyectos de este tipo: [Wikidata-IATEXT](https://corujadigital.tech/blog/wikidata-iatext-2020-ciencia-abierta-libre).
 
 <!-- El "Wikidata-IATEXT" del último párrafo debería estar enlazado al informe sobre el proyecto en el blog -->
 
@@ -39,3 +39,5 @@ En ocasiones las instituciones académicas o científicas no son conscientes del
 Wikidata proporciona a estas instituciones una base en la que volcar datos relacionados con el ámbito científico. Como estos datos deben ser liberados bajo el dominio público, esto se puede considerar una transferencia directa a la sociedad de ese conocimiento.
 
 Si tu institución está interesada en contribuir a la ciencia abierta y a Wikidata, ya sea con un conjunto de datos ya curado o publicado, puedes [contactar con nosotros](https://corujadigital.tech/contactar) sin compromiso.
+
+Si tienes curiosidad por conocer en profundidad los resultados de uno de estos proyectos, te animamos a consultar el [informe sobre el proyecto Wikidata-IATEXT](https://corujadigital.tech/blog/wikidata-iatext-2020-ciencia-abierta-libre) publicado en nuestro blog.

@@ -58,6 +58,11 @@
 						  {{ article.content }}
 						</div>
 					</div>
+					<div class="card-footer">
+						<p class="card-footer-item">
+							<span style="font-weight: normal">Entrada escrita por <em>{{ article.author }}</em></span>
+						</p>
+					</div>	
 					<footer class="card-footer">
 						{% if article.tags %}
 							<div class="tags card-footer-item is-vcentered mt-2 mb-2">
@@ -67,7 +72,9 @@
 							</div>
 						{% endif %}
             {% if article.modified %}
-							<p class="card-footer-item">Última actualización: {{ article.locale_modified }}</p>
+							<p class="card-footer-item has-text-centered">
+								<span style="font-weight: normal">Última actualización: {{ article.locale_modified }}
+							</p>
             {% endif %}
 					</footer>
 				</div>

@@ -3,6 +3,8 @@ date: 2020-12-2 17:30
 modified: 2020-12-2 17:30
 description: Asesoramos a organizaciones sobre cómo contribuir a la ciencia abierta con Wikidata, una de las mayores bases de conocimiento libre y abierto (open data).
 slug: ciencia-abierta-wikidata
+parent_page: Servicios y productos
+parent_page_slug: servicios 
 
 <figure class="image">
   <img src="theme/scholia_wikidata_captura_pantalla.png" alt="Muestra parcial del gráfico de coautorías del Instituto Universitario de Análisis y Aplicaciones Textuales de la Universidad de Las Palmas de Gran Canaria en Scholia" />

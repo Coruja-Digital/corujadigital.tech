@@ -55,7 +55,7 @@ Algunos de los clientes que han contado con los [servicios](https://corujadigita
 ## Servicio de Patrimonio Histórico del Cabildo Insular de Gran Canaria
 <div class="columns">
 <div class="column is-full">
-<p class="is-size-6"><a href="[(https://cabildo.grancanaria.com/-/servicio-servicio-de-cultura-y-patrimonio-histori-1?customArticleId=10277827">Sitio web del Servicio de Patrimonio Histórico del Cabildo Insular de Gran Canaria</a></p>
+<p class="is-size-6"><a href="https://cabildo.grancanaria.com/-/servicio-servicio-de-cultura-y-patrimonio-histori-1?customArticleId=10277827">Sitio web del Servicio de Patrimonio Histórico del Cabildo Insular de Gran Canaria</a></p>
 <ul>
   <li>Creación de un documento CSV para la posterior incorporación masiva de la coleccón fotográfica del Paisaje Cultural Risco Caído y las Montañas Sagradas de Gran Canaria a la base de datos del sistema AtoM (2020).</li>
 </ul>

@@ -1,6 +1,6 @@
 title: Clientes 
 date: 2020-04-17 02:21
-modified: 2020-10-28 22:00
+modified: 2021-06-22 20:20
 description: Lista de clientes que han confiado en los servicios de Coruja Digital. En esta lista se incluyen los servicios o proyectos realizados para los mismos.
 slug: clientes
 
@@ -57,8 +57,23 @@ Algunos de los clientes que han contado con los [servicios](https://corujadigita
 <div class="column is-full">
 <p class="is-size-6"><a href="https://cabildo.grancanaria.com/-/servicio-servicio-de-cultura-y-patrimonio-histori-1?customArticleId=10277827">Sitio web del Servicio de Patrimonio Histórico del Cabildo Insular de Gran Canaria</a></p>
 <ul>
-  <li>Creación de un documento CSV para la posterior incorporación masiva de la coleccón fotográfica del Paisaje Cultural Risco Caído y las Montañas Sagradas de Gran Canaria a la base de datos del sistema AtoM (2020).</li>
+  <li>Creación de un documento CSV para la posterior incorporación masiva de la coleccón fotográfica del Paisaje Cultural Risco Caído y las Montañas Sagradas de Gran Canaria a la base de datos del sistema AtoM (2020). Conllevó el desarrollo de una herramienta en Python.</li>
 </ul>
+</div>
+</div>
+
+## Sieltec Canarias S. L.
+<div class="columns">
+<div class="column is-three-fifths">
+<p class="is-size-6"><a href="https://sieltec.es">Sitio web del Sieltec Canarias S. L.</a></p>
+<ul>
+  <li>Desarrollo en JavaScript de un panel de visualización de datos en formato JSON para sensores meteorológicos.</li>
+</ul>
+</div>
+<div class="column">
+<figure class="image">
+  <img src="theme/sieltec_canarias_sl_logo.png" alt="Logo de Sieltec Canarias S. L." />
+</figure>
 </div>
 </div>
 

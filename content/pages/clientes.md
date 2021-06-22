@@ -43,7 +43,7 @@ Algunos de los clientes que han contado con los [servicios](https://corujadigita
 <p class="is-size-6"><a href="https://iatext.ulpgc.es">Sitio web del Instituto Universitario de Análisis y Aplicaciones Textuales de la Universidad de Las Palmas de Gran Canaria</a></p>
 <ul>
   <li><em>Wikidata-IATEXT</em> (2020). Continuación del proyecto realizado en 2018.
-  <li><em>Wikidata-IATEXT</em> (2018). Proyecto de curación de datos de la producción científica de los investigadores del Instituto Universitario de Análisis y Aplicaciones Textuales de la Universidad de Las Palmas de Gran Canaria. Véase la [noticia publicada en ULPGC Research](https://www.research.ulpgc.es/instituto-universitario-iatext-desarrolla-proyecto-wikidata-visibilizar-produccion-cientifica) o el <a href="https://github.com/Coruja-Digital/wikidata-iatext">repositorio del proyecto</a>. 
+  <li><em>Wikidata-IATEXT</em> (2018). Proyecto de curación de datos de la producción científica de los investigadores del Instituto Universitario de Análisis y Aplicaciones Textuales de la Universidad de Las Palmas de Gran Canaria. Véase la <a href="https://www.research.ulpgc.es/instituto-universitario-iatext-desarrolla-proyecto-wikidata-visibilizar-produccion-cientifica">noticia publicada en ULPGC Research</a> o el <a href="https://github.com/Coruja-Digital/wikidata-iatext">repositorio del proyecto</a>. 
 </div>
 <div class="column">
 <figure class="image">

@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/Coruja-Digital/corujadigital.tech#readme",
   "devDependencies": {
-    "bulma": "^0.9.1",
-    "node-sass": "^4.14.1"
+    "bulma": "^0.9.3",
+    "sass": "^1.35.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",

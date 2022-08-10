@@ -52,7 +52,7 @@ Algunos de los clientes que han contado con los [servicios](https://corujadigita
 </div>
 <div class="column">
 <figure class="image" style="background: white">
-  <img src="theme/logo_europarc.png" alt="Logo de EUROPARC España" />
+  <img src="theme/logo_europarc.png" alt="Logo de EUROPARC España" style="width: 50%" />
 </figure>
 </div>
 </div>
